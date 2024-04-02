@@ -34,7 +34,7 @@ class PangolinControl:
         self.is_led_blink = True
         self.is_recording = False
         self.gait_name = 'move_linear'
-        self.record_path = '/home/ubuntu/pangolin_ws/ros2-pangolin-robot/pangolin_control/driver/output.txt'
+        self.record_path = '/home/ubuntu/pangolin_ws/build/pangolin_control/driver/output.txt'
 
         self.control_cmd.leg_motor_position_control(position = {"motor1":self.inverse_kinematic(0, 'motor1'), 
                                                                 "motor2":self.inverse_kinematic(0, 'motor2'), 
@@ -284,7 +284,7 @@ class PangolinControl:
             # print(i)
             time.sleep(0.08)
         setPWMServoPulse(5, 1500, 100)
-        setPWMServoPulse(6, 1700, 100)
+        setPWMServoPulse(6, 2000, 100)
 
     def run_action_get_down_left(self, action_name = 'get_down_left'):
         action = action_dic[action_name]
@@ -299,7 +299,7 @@ class PangolinControl:
             # print(i)
             time.sleep(0.08)
         setPWMServoPulse(5, 1500, 200)
-        setPWMServoPulse(6, 1700, 200)    
+        setPWMServoPulse(6, 2000, 200)    
 
     def run_action_stand_up_from_right(self, action_name = 'stand_up_from_right'):
         action = action_dic[action_name]
@@ -341,7 +341,7 @@ class PangolinControl:
     #Head
     def head_control(self, LeftRight, UpDown):
         setPWMServoPulse(5, int(LeftRight*300+1500), 100)
-        setPWMServoPulse(6, int(UpDown*200+1500), 100)
+        setPWMServoPulse(6, int(UpDown*500+1500), 100)
         sleep(0.15)
 
 class ControlCmd:

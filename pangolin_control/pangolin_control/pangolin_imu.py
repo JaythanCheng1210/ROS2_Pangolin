@@ -3,7 +3,7 @@ from rclpy.node import Node
 
 from sensor_msgs.msg import Imu
 import sys
-sys.path.append('/home/ubuntu/pangolin_ws/ros2-pangolin-robot/pangolin_control/driver')
+sys.path.append('/home/ubuntu/pangolin_ws/build/pangolin_control/driver')
 from MPU6050 import MPU6050Base, KalmanIMU
 
 class MPU6050Publisher(Node):

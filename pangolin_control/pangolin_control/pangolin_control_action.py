@@ -16,8 +16,8 @@ import os, sys, math
 import numpy 
 import threading
 
-sys.path.append('/home/ubuntu/pangolin_ws/ros2-pangolin-robot/pangolin_control/driver')
-sys.path.append('/home/ubuntu/pangolin_ws/ros2-pangolin-robot/pangolin_control/pangolin_control')
+sys.path.append('/home/ubuntu/pangolin_ws/build/pangolin_control/driver')
+sys.path.append('/home/ubuntu/pangolin_ws/build/pangolin_control/pangolin_control')
 
 from Pangolin_ControlCmd import PangolinControl
 from Pangolin_ActionGroups import action_dic

@@ -7,53 +7,52 @@
 
 ### RaspberryPI environment setup
 - [GPIO root setup](https://forum.up-community.org/discussion/2141/solved-tutorial-gpio-i2c-spi-access-without-root-permissions)
-
 ```
-mkdir pangolin_ws && cd pangolin_ws
-```
-```
-git clone https://github.com/BruceLin90620/ros2-pangolin-robot.git
+$ mkdir pangolin_ws && cd pangolin_ws
 ```
 ```
-git checkout dev
+$ git clone https://github.com/JaythanCheng1210/ROS2_Pangolin.git
+```
+```
+$ git checkout dev
 ```
 
 - build: 
 ```
-sudo apt install python3-pip
-sudo pip3 install pigpio
-sudo pip3 install RPi.GPIO
-sudo pip3 install smbus2
+$ sudo apt install python3-pip
+$ sudo pip3 install pigpio
+$ sudo pip3 install RPi.GPIO
+$ sudo pip3 install smbus2
 ```
 ```
-pip3 install setuptools==58.2.0
+$ pip3 install setuptools==58.2.0
 ```
 ```
-colcon build --symlink-install
+$ colcon build --symlink-install
 ```
 ```
-sudo apt install ros-humble-joy && sudo apt install ros-humble-teleop-twist-joy
+$ sudo apt install ros-humble-joy && sudo apt install ros-humble-teleop-twist-joy
 ``` 
 
 - cd /home/user: 
 ```
-git clone https://github.com/ROBOTIS-GIT/DynamixelSDK.git
+$ git clone https://github.com/ROBOTIS-GIT/DynamixelSDK.git
 ```
 - cd /DynamixlSDK/python: 
 ```
-sudo python3 setup.py install
+$ sudo python setup.py install
 ```
 
 
 ### Pangolin Start
 ```
-ros2 launch pangolin_bringup pangolin_bringup.launch.py
+$ ros2 launch pangolin_bringup pangolin_bringup.launch.py
 ```
 
 ### test
 ```
-ros2 run joy joy_node
-ros2 topic echo /joy
+$ ros2 run joy joy_node
+$ ros2 topic echo /joy
 ```
 
 ### Control Button

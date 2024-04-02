@@ -18,7 +18,7 @@ import numpy as np
 import threading
 
 
-sys.path.append('/home/ubuntu/pangolin_ws/ros2-pangolin-robot/pangolin_control/driver')
+sys.path.append('/home/ubuntu/pangolin_ws/build/pangolin_control/driver')
 
 from Pangolin_ControlCmd import PangolinControl
 from Pangolin_ActionGroups import action_dic
@@ -160,10 +160,10 @@ class Pangolin(Node):
 
         
         if msg.buttons[2] != self.last_joy_msgs_buttons[2] and self.is_curl == True:
-            if self.roll >= 70:
+            if self.pitch <= -65:
                 self.control_cmd.run_action_stand_up_from_right()
                 self.is_curl = False
-            elif self.roll <= -70:
+            elif self.pitch >= 65:
                 self.control_cmd.run_action_stand_up_from_left()
                 self.is_curl = False
 
@@ -205,7 +205,9 @@ class Pangolin(Node):
             pass
 
         self.last_joy_msgs_buttons = msg.buttons
+        # self.get_logger().info(f'pitch: {self.pitch}')
         # self.get_logger().info(f'roll: {self.roll}')
+        # self.get_logger().info(f'yaw: {self.yaw}')
 
 
 
