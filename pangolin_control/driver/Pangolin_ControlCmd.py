@@ -310,7 +310,7 @@ class PangolinControl:
                                                                     "motor4":action[i]["motor4"], 
                                                                     "motor5":action[i]["motor5"]})
             # print(i)
-            time.sleep(1)
+            time.sleep(0.5)
 
     def run_action_stand_up_from_left(self, action_name = 'stand_up_from_left'):
         action = action_dic[action_name]
@@ -321,7 +321,7 @@ class PangolinControl:
                                                                     "motor4":action[i]["motor4"], 
                                                                     "motor5":action[i]["motor5"]})
             # print(i)
-            time.sleep(1)
+            time.sleep(0.5)
 
     def stance_control(self):
         self.stance_cmd.reset_zero()
