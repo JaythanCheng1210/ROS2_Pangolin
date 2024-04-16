@@ -123,7 +123,7 @@ class Pangolin(Node):
             self.is_first_time = False
 
     # Stance control mode
-        if msg.buttons[0] != self.last_joy_msgs_buttons[0]:
+        if msg.buttons[0] != self.last_joy_msgs_buttons[0] and (self.is_curl == False) and (self.is_freedom_mode == False) and (self.is_sit_mode == False):
             self.is_stance_mode = not self.is_stance_mode
 
         if self.is_stance_mode == True:
@@ -149,19 +149,19 @@ class Pangolin(Node):
             self.control_cmd.roll = 0
             
     # Reset mode
-        if msg.buttons[1] != self.last_joy_msgs_buttons[1]:
-            self.get_logger().info(f'Reset mode')
-            self.control_cmd.reset_to_orginal()
+        # if msg.buttons[1] != self.last_joy_msgs_buttons[1]:
+        #     self.get_logger().info(f'Reset mode')
+        #     self.control_cmd.reset_to_orginal()
 
     # Down & Curl action mode(left)
-        if msg.buttons[6] != self.last_joy_msgs_buttons[6] and self.is_curl == False:
+        if msg.buttons[6] != self.last_joy_msgs_buttons[6] and self.is_curl == False and (self.is_stance_mode == False) and (self.is_freedom_mode == False) and (self.is_sit_mode == False):
             self.get_logger().info(f'Curl action mode (left)')
             self.control_cmd.run_action_get_down_left()
             self.is_curl = True
 
 
     # Down & Curl action mode(right)
-        if msg.buttons[7] != self.last_joy_msgs_buttons[7] and self.is_curl == False:
+        if msg.buttons[7] != self.last_joy_msgs_buttons[7] and self.is_curl == False and (self.is_stance_mode == False) and (self.is_freedom_mode == False) and (self.is_sit_mode == False):
             self.get_logger().info(f'Curl action mode (right)')
             self.control_cmd.run_action_get_down_right()
             self.is_curl = True
@@ -177,7 +177,7 @@ class Pangolin(Node):
 
 
     # Freedom control mode
-        if msg.buttons[3] != self.last_joy_msgs_buttons[3]:
+        if msg.buttons[3] != self.last_joy_msgs_buttons[3] and (self.is_stance_mode == False) and (self.is_curl == False) and (self.is_sit_mode == False):
             self.is_freedom_mode = not self.is_freedom_mode
 
         if self.is_freedom_mode == True:
@@ -202,14 +202,15 @@ class Pangolin(Node):
         #     self.control_cmd.replay_recorded_data()
   
 
-        if msg.buttons[10] != self.last_joy_msgs_buttons[10]:
+        if msg.buttons[1] != self.last_joy_msgs_buttons[1] and (self.is_stance_mode == False) and (self.is_freedom_mode == False) and (self.is_curl == False):
             self.is_sit_mode = not self.is_sit_mode
 
-        if self.is_sit_mode == True:
-            # self.control_cmd.control_cmd.leg_motor_position_control(position = {"motor1":2328, "motor2":1782, "motor3":1074, "motor4":1751, "motor5":2326 })
-            self.control_cmd.run_action_sit()
-        else:
-            self.control_cmd.run_action_stand()
+            if self.is_sit_mode == True:
+                # self.control_cmd.control_cmd.leg_motor_position_control(position = {"motor1":2328, "motor2":1782, "motor3":1074, "motor4":1751, "motor5":2326 })
+                self.control_cmd.run_action_sit()
+            else:
+                self.control_cmd.run_action_stand()
+                self.is_sit_mode = False
 
 
 
@@ -229,7 +230,7 @@ class Pangolin(Node):
         # self.get_logger().info(f'linear.x: {msg.linear.x} angular.z: {msg.angular.z}')
         # self.control_cmd.set_servo_rate([msg.linear.x - msg.angular.z, msg.linear.x + msg.angular.z])
 
-        if round(msg.linear.x, 0) != 0 and abs(msg.angular.z) < 0.5 and (self.is_curl == False) and (self.is_freedom_mode == False):
+        if round(msg.linear.x, 0) != 0 and abs(msg.angular.z) < 0.5 and (self.is_curl == False) and (self.is_freedom_mode == False) and (self.is_sit_mode == False):
     
             self.control_cmd.set_servo_rate([msg.linear.x, msg.linear.x])
             if self.control_cmd.is_walking == False:
@@ -237,7 +238,7 @@ class Pangolin(Node):
                 self.control_cmd.set_gait_name('move_linear')
                 self.control_cmd.start_gait()
 
-        elif round(msg.angular.z, 0) < 0 and abs(msg.linear.x) < 0.5 and (self.is_curl == False) and (self.is_freedom_mode == False):
+        elif round(msg.angular.z, 0) < 0 and abs(msg.linear.x) < 0.5 and (self.is_curl == False) and (self.is_freedom_mode == False) and (self.is_sit_mode == False):
             
             self.control_cmd.set_servo_rate([msg.angular.z, msg.angular.z])
             if self.control_cmd.is_walking == False:
@@ -245,7 +246,7 @@ class Pangolin(Node):
                 self.control_cmd.set_gait_name('turn_right')
                 self.control_cmd.start_gait()
 
-        elif round(msg.angular.z, 0) > 0 and abs(msg.linear.x) < 0.5 and (self.is_curl == False) and (self.is_freedom_mode == False):
+        elif round(msg.angular.z, 0) > 0 and abs(msg.linear.x) < 0.5 and (self.is_curl == False) and (self.is_freedom_mode == False)and (self.is_sit_mode == False):
             
             self.control_cmd.set_servo_rate([-msg.angular.z, -msg.angular.z])
             if self.control_cmd.is_walking == False:
@@ -260,7 +261,7 @@ class Pangolin(Node):
                 self.control_cmd.stop_gait()
         
         # head control
-        if (self.control_cmd.is_walking == False) and (self.control_cmd.is_turning == False) and (self.is_curl == False) and (self.is_stance_mode == False) and (self.is_freedom_mode == False):
+        if (self.control_cmd.is_walking == False) and (self.control_cmd.is_turning == False) and (self.is_curl == False) and (self.is_stance_mode == False) and (self.is_freedom_mode == False) and (self.is_sit_mode == False):
             self.control_cmd.head_control(msg.linear.y, -(msg.linear.z))
         
 
