@@ -15,12 +15,14 @@ import time
 import os, sys, math
 import numpy as np
 
+import atexit
 import threading
 
 
 sys.path.append('/home/ubuntu/pangolin_ws/build/pangolin_control/driver')
 
 from Pangolin_ControlCmd import PangolinControl
+from Pangolin_ControlCmd import ControlCmd
 from Pangolin_ActionGroups import action_dic
 from Pangolin_Config import *
 from Board import setPWMServoPulse
@@ -29,10 +31,13 @@ class Pangolin(Node):
     def __init__(self):
         super().__init__('pangolin_control')
         self.control_cmd = PangolinControl()
+        # self.control_cmd2 = ControlCmd()
 
         self.joy_subscriber_ = self.create_subscription(Joy, 'joy', self.joy_callback, 0)
         self.imu_subscriber_ = self.create_subscription(Imu, 'imu', self.imu_callback, 1)
         self.cmd_vel_subscriber_ = self.create_subscription(Twist, 'cmd_vel', self.cmd_vel_callback, 1)
+
+        atexit.register(self.disable)
         
         
         self._goal_lock = threading.Lock()
@@ -42,6 +47,7 @@ class Pangolin(Node):
         self.is_freedom_mode = False
         self.is_stance_mode = False
         self.is_record_mode = False
+        self.is_sit_mode = False
         self.is_curl = False
         self.last_joy_msgs_buttons = []
         self.time_1 = 0
@@ -50,6 +56,8 @@ class Pangolin(Node):
         self.pitch = None
         self.roll = None
         self.yaw = None
+
+        # atexit.register(self.cleanup)
 
     # destroy ros    
     def destroy(self):
@@ -194,22 +202,23 @@ class Pangolin(Node):
         #     self.control_cmd.replay_recorded_data()
   
 
-        if msg.buttons[8] != self.last_joy_msgs_buttons[8]:
-            # self.get_logger().info(f'disable motor')
-            # if self.is_disalbe_motor == False:
-            #     self.control_cmd.disable_all_motor()
-            #     self.is_disalbe_motor = True
-            # else:
-            #     self.control_cmd.enable_all_motor()
-            #     self.is_disalbe_motor = False
-            pass
+        if msg.buttons[10] != self.last_joy_msgs_buttons[10]:
+            self.is_sit_mode = not self.is_sit_mode
+
+        if self.is_sit_mode == True:
+            # self.control_cmd.control_cmd.leg_motor_position_control(position = {"motor1":2328, "motor2":1782, "motor3":1074, "motor4":1751, "motor5":2326 })
+            self.control_cmd.run_action_sit()
+        else:
+            self.control_cmd.run_action_stand()
+
+
+
+
 
         self.last_joy_msgs_buttons = msg.buttons
         # self.get_logger().info(f'pitch: {self.pitch}')
         # self.get_logger().info(f'roll: {self.roll}')
         # self.get_logger().info(f'yaw: {self.yaw}')
-
-
 
 
 
@@ -283,6 +292,12 @@ class Pangolin(Node):
         #     if (time.time() - self.time_1 > 3):
         #         self.control_cmd.run_action_stand_up()
         #         self.is_curl = False
+
+    # def cleanup(self):
+    #     self.control_cmd2.disable_all_motor(self)
+
+    def disable(self):
+        self.control_cmd.disable_motor()
 
             
 

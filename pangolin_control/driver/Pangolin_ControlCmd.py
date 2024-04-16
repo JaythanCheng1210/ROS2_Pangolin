@@ -323,6 +323,29 @@ class PangolinControl:
             # print(i)
             time.sleep(0.5)
 
+    def run_action_sit(self, action_name = 'sit'):
+        action = action_dic[action_name]
+        for i in range(len(action)):
+            self.control_cmd.leg_motor_position_control(position = {"motor1":action[i]["motor1"], 
+                                                                    "motor2":action[i]["motor2"], 
+                                                                    "motor3":action[i]["motor3"], 
+                                                                    "motor4":action[i]["motor4"], 
+                                                                    "motor5":action[i]["motor5"]})
+            # print(i)
+            time.sleep(0.08)
+        setPWMServoPulse(6, 2000, 100)    
+
+    def run_action_stand(self, action_name = 'stand'):
+        action = action_dic[action_name]
+        for i in range(len(action)):
+            self.control_cmd.leg_motor_position_control(position = {"motor1":action[i]["motor1"], 
+                                                                    "motor2":action[i]["motor2"], 
+                                                                    "motor3":action[i]["motor3"], 
+                                                                    "motor4":action[i]["motor4"], 
+                                                                    "motor5":action[i]["motor5"]})
+            # print(i)
+            time.sleep(0.08)
+
     def stance_control(self):
         self.stance_cmd.reset_zero()
         self.stance_cmd.translation_x(self.x)
@@ -344,6 +367,11 @@ class PangolinControl:
         setPWMServoPulse(6, int(UpDown*500+1500), 100)
         sleep(0.15)
 
+
+    def disable_motor(self):
+        self.control_cmd.disable_all_motor()
+        print("disabling")
+
 class ControlCmd:
     def __init__(self): 
 
@@ -360,7 +388,7 @@ class ControlCmd:
         motor3 = self.dynamixel.createMotor('motor3', motor_number=3)
         motor4 = self.dynamixel.createMotor('motor4', motor_number=4)
         motor5 = self.dynamixel.createMotor('motor5', motor_number=5)
-
+ 
         #Create the leg motor list
         self.leg_motor_list = [motor1, motor2, motor4, motor5]
 

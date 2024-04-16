@@ -1,0 +1,881 @@
+[2024-04-12 07:22:29,326] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to open the port
+[2024-04-12 07:22:29,332] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to change the baudrate
+[2024-04-12 07:22:29,372] [DXL_Conmunication .DXL_motor_1] [INFO]: pingMotor : [ID:001] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 07:22:29,404] [DXL_Conmunication .DXL_motor_2] [INFO]: pingMotor : [ID:002] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 07:22:29,436] [DXL_Conmunication .DXL_motor_3] [INFO]: pingMotor : [ID:003] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 07:22:29,468] [DXL_Conmunication .DXL_motor_4] [INFO]: pingMotor : [ID:004] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 07:22:29,500] [DXL_Conmunication .DXL_motor_5] [INFO]: pingMotor : [ID:005] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 07:22:29,516] [DXL_Conmunication .DXL_motor_1] [INFO]: rebootMotor : [ID:1] reboot Succeeded
+[2024-04-12 07:22:29,532] [DXL_Conmunication .DXL_motor_2] [INFO]: rebootMotor : [ID:2] reboot Succeeded
+[2024-04-12 07:22:29,548] [DXL_Conmunication .DXL_motor_3] [INFO]: rebootMotor : [ID:3] reboot Succeeded
+[2024-04-12 07:22:29,564] [DXL_Conmunication .DXL_motor_4] [INFO]: rebootMotor : [ID:4] reboot Succeeded
+[2024-04-12 07:22:29,580] [DXL_Conmunication .DXL_motor_5] [INFO]: rebootMotor : [ID:5] reboot Succeeded
+[2024-04-12 07:22:32,700] [DXL_Conmunication .DXL_motor_1] [INFO]: enableMotor : Motor1 is successfully armed
+[2024-04-12 07:22:32,716] [DXL_Conmunication .DXL_motor_2] [INFO]: enableMotor : Motor2 is successfully armed
+[2024-04-12 07:22:32,732] [DXL_Conmunication .DXL_motor_4] [INFO]: enableMotor : Motor4 is successfully armed
+[2024-04-12 07:22:32,748] [DXL_Conmunication .DXL_motor_5] [INFO]: enableMotor : Motor5 is successfully armed
+[2024-04-12 07:22:32,764] [DXL_Conmunication .DXL_motor_3] [INFO]: enableMotor : Motor3 is successfully armed
+[2024-04-12 07:38:01,499] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to open the port
+[2024-04-12 07:38:01,505] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to change the baudrate
+[2024-04-12 07:38:01,545] [DXL_Conmunication .DXL_motor_1] [INFO]: pingMotor : [ID:001] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 07:38:01,577] [DXL_Conmunication .DXL_motor_2] [INFO]: pingMotor : [ID:002] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 07:38:01,609] [DXL_Conmunication .DXL_motor_3] [INFO]: pingMotor : [ID:003] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 07:38:01,641] [DXL_Conmunication .DXL_motor_4] [INFO]: pingMotor : [ID:004] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 07:38:01,673] [DXL_Conmunication .DXL_motor_5] [INFO]: pingMotor : [ID:005] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 07:38:01,689] [DXL_Conmunication .DXL_motor_1] [INFO]: rebootMotor : [ID:1] reboot Succeeded
+[2024-04-12 07:38:01,705] [DXL_Conmunication .DXL_motor_2] [INFO]: rebootMotor : [ID:2] reboot Succeeded
+[2024-04-12 07:38:01,721] [DXL_Conmunication .DXL_motor_3] [INFO]: rebootMotor : [ID:3] reboot Succeeded
+[2024-04-12 07:38:01,737] [DXL_Conmunication .DXL_motor_4] [INFO]: rebootMotor : [ID:4] reboot Succeeded
+[2024-04-12 07:38:01,753] [DXL_Conmunication .DXL_motor_5] [INFO]: rebootMotor : [ID:5] reboot Succeeded
+[2024-04-12 07:38:04,873] [DXL_Conmunication .DXL_motor_1] [INFO]: enableMotor : Motor1 is successfully armed
+[2024-04-12 07:38:04,889] [DXL_Conmunication .DXL_motor_2] [INFO]: enableMotor : Motor2 is successfully armed
+[2024-04-12 07:38:04,905] [DXL_Conmunication .DXL_motor_4] [INFO]: enableMotor : Motor4 is successfully armed
+[2024-04-12 07:38:04,921] [DXL_Conmunication .DXL_motor_5] [INFO]: enableMotor : Motor5 is successfully armed
+[2024-04-12 07:38:04,937] [DXL_Conmunication .DXL_motor_3] [INFO]: enableMotor : Motor3 is successfully armed
+[2024-04-12 07:57:36,258] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to open the port
+[2024-04-12 07:57:36,264] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to change the baudrate
+[2024-04-12 07:57:36,305] [DXL_Conmunication .DXL_motor_1] [INFO]: pingMotor : [ID:001] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 07:57:36,337] [DXL_Conmunication .DXL_motor_2] [INFO]: pingMotor : [ID:002] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 07:57:36,369] [DXL_Conmunication .DXL_motor_3] [INFO]: pingMotor : [ID:003] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 07:57:36,401] [DXL_Conmunication .DXL_motor_4] [INFO]: pingMotor : [ID:004] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 07:57:36,433] [DXL_Conmunication .DXL_motor_5] [INFO]: pingMotor : [ID:005] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 07:57:36,449] [DXL_Conmunication .DXL_motor_1] [INFO]: rebootMotor : [ID:1] reboot Succeeded
+[2024-04-12 07:57:36,465] [DXL_Conmunication .DXL_motor_2] [INFO]: rebootMotor : [ID:2] reboot Succeeded
+[2024-04-12 07:57:36,481] [DXL_Conmunication .DXL_motor_3] [INFO]: rebootMotor : [ID:3] reboot Succeeded
+[2024-04-12 07:57:36,497] [DXL_Conmunication .DXL_motor_4] [INFO]: rebootMotor : [ID:4] reboot Succeeded
+[2024-04-12 07:57:36,513] [DXL_Conmunication .DXL_motor_5] [INFO]: rebootMotor : [ID:5] reboot Succeeded
+[2024-04-12 07:57:39,633] [DXL_Conmunication .DXL_motor_1] [INFO]: enableMotor : Motor1 is successfully armed
+[2024-04-12 07:57:39,649] [DXL_Conmunication .DXL_motor_2] [INFO]: enableMotor : Motor2 is successfully armed
+[2024-04-12 07:57:39,664] [DXL_Conmunication .DXL_motor_4] [INFO]: enableMotor : Motor4 is successfully armed
+[2024-04-12 07:57:39,680] [DXL_Conmunication .DXL_motor_5] [INFO]: enableMotor : Motor5 is successfully armed
+[2024-04-12 07:57:39,696] [DXL_Conmunication .DXL_motor_3] [INFO]: enableMotor : Motor3 is successfully armed
+[2024-04-12 08:08:27,303] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to open the port
+[2024-04-12 08:08:27,309] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to change the baudrate
+[2024-04-12 08:08:27,349] [DXL_Conmunication .DXL_motor_1] [INFO]: pingMotor : [ID:001] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 08:08:27,381] [DXL_Conmunication .DXL_motor_2] [INFO]: pingMotor : [ID:002] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 08:08:27,413] [DXL_Conmunication .DXL_motor_3] [INFO]: pingMotor : [ID:003] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 08:08:27,445] [DXL_Conmunication .DXL_motor_4] [INFO]: pingMotor : [ID:004] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 08:08:27,477] [DXL_Conmunication .DXL_motor_5] [INFO]: pingMotor : [ID:005] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 08:08:27,493] [DXL_Conmunication .DXL_motor_1] [INFO]: rebootMotor : [ID:1] reboot Succeeded
+[2024-04-12 08:08:27,509] [DXL_Conmunication .DXL_motor_2] [INFO]: rebootMotor : [ID:2] reboot Succeeded
+[2024-04-12 08:08:27,525] [DXL_Conmunication .DXL_motor_3] [INFO]: rebootMotor : [ID:3] reboot Succeeded
+[2024-04-12 08:08:27,541] [DXL_Conmunication .DXL_motor_4] [INFO]: rebootMotor : [ID:4] reboot Succeeded
+[2024-04-12 08:08:27,557] [DXL_Conmunication .DXL_motor_5] [INFO]: rebootMotor : [ID:5] reboot Succeeded
+[2024-04-12 08:08:30,677] [DXL_Conmunication .DXL_motor_1] [INFO]: enableMotor : Motor1 is successfully armed
+[2024-04-12 08:08:30,693] [DXL_Conmunication .DXL_motor_2] [INFO]: enableMotor : Motor2 is successfully armed
+[2024-04-12 08:08:30,709] [DXL_Conmunication .DXL_motor_4] [INFO]: enableMotor : Motor4 is successfully armed
+[2024-04-12 08:08:30,725] [DXL_Conmunication .DXL_motor_5] [INFO]: enableMotor : Motor5 is successfully armed
+[2024-04-12 08:08:30,741] [DXL_Conmunication .DXL_motor_3] [INFO]: enableMotor : Motor3 is successfully armed
+[2024-04-12 08:09:38,833] [DXL_Conmunication .DXL_motor_1] [INFO]: disableMotor : Motor1 disarmed SUCCESSFULLY
+[2024-04-12 08:09:38,849] [DXL_Conmunication .DXL_motor_2] [INFO]: disableMotor : Motor2 disarmed SUCCESSFULLY
+[2024-04-12 08:09:38,865] [DXL_Conmunication .DXL_motor_4] [INFO]: disableMotor : Motor4 disarmed SUCCESSFULLY
+[2024-04-12 08:09:38,881] [DXL_Conmunication .DXL_motor_5] [INFO]: disableMotor : Motor5 disarmed SUCCESSFULLY
+[2024-04-12 08:09:38,897] [DXL_Conmunication .DXL_motor_3] [INFO]: disableMotor : Motor3 disarmed SUCCESSFULLY
+[2024-04-12 08:09:59,621] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to open the port
+[2024-04-12 08:09:59,627] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to change the baudrate
+[2024-04-12 08:09:59,667] [DXL_Conmunication .DXL_motor_1] [INFO]: pingMotor : [ID:001] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 08:09:59,699] [DXL_Conmunication .DXL_motor_2] [INFO]: pingMotor : [ID:002] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 08:09:59,731] [DXL_Conmunication .DXL_motor_3] [INFO]: pingMotor : [ID:003] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 08:09:59,763] [DXL_Conmunication .DXL_motor_4] [INFO]: pingMotor : [ID:004] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 08:09:59,795] [DXL_Conmunication .DXL_motor_5] [INFO]: pingMotor : [ID:005] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 08:09:59,811] [DXL_Conmunication .DXL_motor_1] [INFO]: rebootMotor : [ID:1] reboot Succeeded
+[2024-04-12 08:09:59,827] [DXL_Conmunication .DXL_motor_2] [INFO]: rebootMotor : [ID:2] reboot Succeeded
+[2024-04-12 08:09:59,843] [DXL_Conmunication .DXL_motor_3] [INFO]: rebootMotor : [ID:3] reboot Succeeded
+[2024-04-12 08:09:59,859] [DXL_Conmunication .DXL_motor_4] [INFO]: rebootMotor : [ID:4] reboot Succeeded
+[2024-04-12 08:09:59,875] [DXL_Conmunication .DXL_motor_5] [INFO]: rebootMotor : [ID:5] reboot Succeeded
+[2024-04-12 08:10:02,994] [DXL_Conmunication .DXL_motor_1] [INFO]: enableMotor : Motor1 is successfully armed
+[2024-04-12 08:10:03,010] [DXL_Conmunication .DXL_motor_2] [INFO]: enableMotor : Motor2 is successfully armed
+[2024-04-12 08:10:03,026] [DXL_Conmunication .DXL_motor_4] [INFO]: enableMotor : Motor4 is successfully armed
+[2024-04-12 08:10:03,042] [DXL_Conmunication .DXL_motor_5] [INFO]: enableMotor : Motor5 is successfully armed
+[2024-04-12 08:10:03,058] [DXL_Conmunication .DXL_motor_3] [INFO]: enableMotor : Motor3 is successfully armed
+[2024-04-12 08:10:53,360] [DXL_Conmunication .DXL_motor_1] [INFO]: disableMotor : Motor1 disarmed SUCCESSFULLY
+[2024-04-12 08:10:53,376] [DXL_Conmunication .DXL_motor_2] [INFO]: disableMotor : Motor2 disarmed SUCCESSFULLY
+[2024-04-12 08:10:53,391] [DXL_Conmunication .DXL_motor_4] [INFO]: disableMotor : Motor4 disarmed SUCCESSFULLY
+[2024-04-12 08:10:53,407] [DXL_Conmunication .DXL_motor_5] [INFO]: disableMotor : Motor5 disarmed SUCCESSFULLY
+[2024-04-12 08:10:53,423] [DXL_Conmunication .DXL_motor_3] [INFO]: disableMotor : Motor3 disarmed SUCCESSFULLY
+[2024-04-12 08:51:13,164] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to open the port
+[2024-04-12 08:51:13,169] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to change the baudrate
+[2024-04-12 08:51:13,209] [DXL_Conmunication .DXL_motor_1] [INFO]: directReadData : com_err_msg : [TxRxResult] There is no status packet! at ID: 1
+[2024-04-12 08:51:13,247] [DXL_Conmunication .DXL_motor_1] [INFO]: pingMotor : DXL: Ping Error: [TxRxResult] There is no status packet! at ID:1
+[2024-04-12 08:51:13,248] [DXL_Conmunication] [WARNING]: createMotor : Motor 1 connect error
+[2024-04-12 08:51:13,287] [DXL_Conmunication .DXL_motor_2] [INFO]: directReadData : com_err_msg : [TxRxResult] There is no status packet! at ID: 2
+[2024-04-12 08:51:13,325] [DXL_Conmunication .DXL_motor_2] [INFO]: pingMotor : DXL: Ping Error: [TxRxResult] There is no status packet! at ID:2
+[2024-04-12 08:51:13,326] [DXL_Conmunication] [WARNING]: createMotor : Motor 2 connect error
+[2024-04-12 08:51:13,365] [DXL_Conmunication .DXL_motor_3] [INFO]: directReadData : com_err_msg : [TxRxResult] There is no status packet! at ID: 3
+[2024-04-12 08:51:13,403] [DXL_Conmunication .DXL_motor_3] [INFO]: pingMotor : DXL: Ping Error: [TxRxResult] There is no status packet! at ID:3
+[2024-04-12 08:51:13,404] [DXL_Conmunication] [WARNING]: createMotor : Motor 3 connect error
+[2024-04-12 08:51:13,443] [DXL_Conmunication .DXL_motor_4] [INFO]: directReadData : com_err_msg : [TxRxResult] There is no status packet! at ID: 4
+[2024-04-12 08:51:13,480] [DXL_Conmunication .DXL_motor_4] [INFO]: pingMotor : DXL: Ping Error: [TxRxResult] There is no status packet! at ID:4
+[2024-04-12 08:51:13,482] [DXL_Conmunication] [WARNING]: createMotor : Motor 4 connect error
+[2024-04-12 08:51:13,520] [DXL_Conmunication .DXL_motor_5] [INFO]: directReadData : com_err_msg : [TxRxResult] There is no status packet! at ID: 5
+[2024-04-12 08:51:13,558] [DXL_Conmunication .DXL_motor_5] [INFO]: pingMotor : DXL: Ping Error: [TxRxResult] There is no status packet! at ID:5
+[2024-04-12 08:51:13,559] [DXL_Conmunication] [WARNING]: createMotor : Motor 5 connect error
+[2024-04-12 08:51:22,428] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to open the port
+[2024-04-12 08:51:22,434] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to change the baudrate
+[2024-04-12 08:51:22,474] [DXL_Conmunication .DXL_motor_1] [INFO]: directReadData : com_err_msg : [TxRxResult] There is no status packet! at ID: 1
+[2024-04-12 08:51:22,512] [DXL_Conmunication .DXL_motor_1] [INFO]: pingMotor : DXL: Ping Error: [TxRxResult] There is no status packet! at ID:1
+[2024-04-12 08:51:22,513] [DXL_Conmunication] [WARNING]: createMotor : Motor 1 connect error
+[2024-04-12 08:51:22,552] [DXL_Conmunication .DXL_motor_2] [INFO]: directReadData : com_err_msg : [TxRxResult] There is no status packet! at ID: 2
+[2024-04-12 08:51:22,590] [DXL_Conmunication .DXL_motor_2] [INFO]: pingMotor : DXL: Ping Error: [TxRxResult] There is no status packet! at ID:2
+[2024-04-12 08:51:22,591] [DXL_Conmunication] [WARNING]: createMotor : Motor 2 connect error
+[2024-04-12 08:51:22,630] [DXL_Conmunication .DXL_motor_3] [INFO]: directReadData : com_err_msg : [TxRxResult] There is no status packet! at ID: 3
+[2024-04-12 08:51:22,668] [DXL_Conmunication .DXL_motor_3] [INFO]: pingMotor : DXL: Ping Error: [TxRxResult] There is no status packet! at ID:3
+[2024-04-12 08:51:22,669] [DXL_Conmunication] [WARNING]: createMotor : Motor 3 connect error
+[2024-04-12 08:51:22,708] [DXL_Conmunication .DXL_motor_4] [INFO]: directReadData : com_err_msg : [TxRxResult] There is no status packet! at ID: 4
+[2024-04-12 08:51:22,746] [DXL_Conmunication .DXL_motor_4] [INFO]: pingMotor : DXL: Ping Error: [TxRxResult] There is no status packet! at ID:4
+[2024-04-12 08:51:22,747] [DXL_Conmunication] [WARNING]: createMotor : Motor 4 connect error
+[2024-04-12 08:51:22,785] [DXL_Conmunication .DXL_motor_5] [INFO]: directReadData : com_err_msg : [TxRxResult] There is no status packet! at ID: 5
+[2024-04-12 08:51:22,823] [DXL_Conmunication .DXL_motor_5] [INFO]: pingMotor : DXL: Ping Error: [TxRxResult] There is no status packet! at ID:5
+[2024-04-12 08:51:22,824] [DXL_Conmunication] [WARNING]: createMotor : Motor 5 connect error
+[2024-04-12 08:51:25,828] [DXL_Conmunication] [WARNING]: updateMotorData : Failed: [TxRxResult] Protocol does not support this function!
+[2024-04-12 08:53:01,626] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to open the port
+[2024-04-12 08:53:01,632] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to change the baudrate
+[2024-04-12 08:53:01,672] [DXL_Conmunication .DXL_motor_1] [INFO]: pingMotor : [ID:001] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 08:53:01,704] [DXL_Conmunication .DXL_motor_2] [INFO]: pingMotor : [ID:002] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 08:53:01,736] [DXL_Conmunication .DXL_motor_3] [INFO]: pingMotor : [ID:003] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 08:53:01,768] [DXL_Conmunication .DXL_motor_4] [INFO]: pingMotor : [ID:004] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 08:53:01,800] [DXL_Conmunication .DXL_motor_5] [INFO]: pingMotor : [ID:005] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 08:53:01,816] [DXL_Conmunication .DXL_motor_1] [INFO]: rebootMotor : [ID:1] reboot Succeeded
+[2024-04-12 08:53:01,832] [DXL_Conmunication .DXL_motor_2] [INFO]: rebootMotor : [ID:2] reboot Succeeded
+[2024-04-12 08:53:01,848] [DXL_Conmunication .DXL_motor_3] [INFO]: rebootMotor : [ID:3] reboot Succeeded
+[2024-04-12 08:53:01,864] [DXL_Conmunication .DXL_motor_4] [INFO]: rebootMotor : [ID:4] reboot Succeeded
+[2024-04-12 08:53:01,880] [DXL_Conmunication .DXL_motor_5] [INFO]: rebootMotor : [ID:5] reboot Succeeded
+[2024-04-12 08:53:04,999] [DXL_Conmunication .DXL_motor_1] [INFO]: enableMotor : Motor1 is successfully armed
+[2024-04-12 08:53:05,016] [DXL_Conmunication .DXL_motor_2] [INFO]: enableMotor : Motor2 is successfully armed
+[2024-04-12 08:53:05,031] [DXL_Conmunication .DXL_motor_4] [INFO]: enableMotor : Motor4 is successfully armed
+[2024-04-12 08:53:05,047] [DXL_Conmunication .DXL_motor_5] [INFO]: enableMotor : Motor5 is successfully armed
+[2024-04-12 08:53:05,063] [DXL_Conmunication .DXL_motor_3] [INFO]: enableMotor : Motor3 is successfully armed
+[2024-04-12 08:54:38,012] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to open the port
+[2024-04-12 08:54:38,017] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to change the baudrate
+[2024-04-12 08:54:38,058] [DXL_Conmunication .DXL_motor_1] [INFO]: pingMotor : [ID:001] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 08:54:38,090] [DXL_Conmunication .DXL_motor_2] [INFO]: pingMotor : [ID:002] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 08:54:38,122] [DXL_Conmunication .DXL_motor_3] [INFO]: pingMotor : [ID:003] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 08:54:38,154] [DXL_Conmunication .DXL_motor_4] [INFO]: pingMotor : [ID:004] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 08:54:38,186] [DXL_Conmunication .DXL_motor_5] [INFO]: pingMotor : [ID:005] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 08:54:38,202] [DXL_Conmunication .DXL_motor_1] [INFO]: rebootMotor : [ID:1] reboot Succeeded
+[2024-04-12 08:54:38,218] [DXL_Conmunication .DXL_motor_2] [INFO]: rebootMotor : [ID:2] reboot Succeeded
+[2024-04-12 08:54:38,234] [DXL_Conmunication .DXL_motor_3] [INFO]: rebootMotor : [ID:3] reboot Succeeded
+[2024-04-12 08:54:38,250] [DXL_Conmunication .DXL_motor_4] [INFO]: rebootMotor : [ID:4] reboot Succeeded
+[2024-04-12 08:54:38,266] [DXL_Conmunication .DXL_motor_5] [INFO]: rebootMotor : [ID:5] reboot Succeeded
+[2024-04-12 08:54:41,386] [DXL_Conmunication .DXL_motor_1] [INFO]: enableMotor : Motor1 is successfully armed
+[2024-04-12 08:54:41,402] [DXL_Conmunication .DXL_motor_2] [INFO]: enableMotor : Motor2 is successfully armed
+[2024-04-12 08:54:41,418] [DXL_Conmunication .DXL_motor_4] [INFO]: enableMotor : Motor4 is successfully armed
+[2024-04-12 08:54:41,434] [DXL_Conmunication .DXL_motor_5] [INFO]: enableMotor : Motor5 is successfully armed
+[2024-04-12 08:54:41,450] [DXL_Conmunication .DXL_motor_3] [INFO]: enableMotor : Motor3 is successfully armed
+[2024-04-12 08:57:37,214] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to open the port
+[2024-04-12 08:57:37,220] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to change the baudrate
+[2024-04-12 08:57:37,260] [DXL_Conmunication .DXL_motor_1] [INFO]: pingMotor : [ID:001] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 08:57:37,292] [DXL_Conmunication .DXL_motor_2] [INFO]: pingMotor : [ID:002] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 08:57:37,324] [DXL_Conmunication .DXL_motor_3] [INFO]: pingMotor : [ID:003] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 08:57:37,356] [DXL_Conmunication .DXL_motor_4] [INFO]: pingMotor : [ID:004] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 08:57:37,388] [DXL_Conmunication .DXL_motor_5] [INFO]: pingMotor : [ID:005] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 08:57:37,404] [DXL_Conmunication .DXL_motor_1] [INFO]: rebootMotor : [ID:1] reboot Succeeded
+[2024-04-12 08:57:37,420] [DXL_Conmunication .DXL_motor_2] [INFO]: rebootMotor : [ID:2] reboot Succeeded
+[2024-04-12 08:57:37,436] [DXL_Conmunication .DXL_motor_3] [INFO]: rebootMotor : [ID:3] reboot Succeeded
+[2024-04-12 08:57:37,452] [DXL_Conmunication .DXL_motor_4] [INFO]: rebootMotor : [ID:4] reboot Succeeded
+[2024-04-12 08:57:37,468] [DXL_Conmunication .DXL_motor_5] [INFO]: rebootMotor : [ID:5] reboot Succeeded
+[2024-04-12 08:57:40,588] [DXL_Conmunication .DXL_motor_1] [INFO]: enableMotor : Motor1 is successfully armed
+[2024-04-12 08:57:40,604] [DXL_Conmunication .DXL_motor_2] [INFO]: enableMotor : Motor2 is successfully armed
+[2024-04-12 08:57:40,620] [DXL_Conmunication .DXL_motor_4] [INFO]: enableMotor : Motor4 is successfully armed
+[2024-04-12 08:57:40,636] [DXL_Conmunication .DXL_motor_5] [INFO]: enableMotor : Motor5 is successfully armed
+[2024-04-12 08:57:40,652] [DXL_Conmunication .DXL_motor_3] [INFO]: enableMotor : Motor3 is successfully armed
+[2024-04-12 08:57:56,843] [DXL_Conmunication .DXL_motor_1] [INFO]: disableMotor : Motor1 disarmed SUCCESSFULLY
+[2024-04-12 08:57:56,859] [DXL_Conmunication .DXL_motor_2] [INFO]: disableMotor : Motor2 disarmed SUCCESSFULLY
+[2024-04-12 08:57:56,875] [DXL_Conmunication .DXL_motor_4] [INFO]: disableMotor : Motor4 disarmed SUCCESSFULLY
+[2024-04-12 08:57:56,891] [DXL_Conmunication .DXL_motor_5] [INFO]: disableMotor : Motor5 disarmed SUCCESSFULLY
+[2024-04-12 08:57:56,907] [DXL_Conmunication .DXL_motor_3] [INFO]: disableMotor : Motor3 disarmed SUCCESSFULLY
+[2024-04-12 08:58:35,369] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to open the port
+[2024-04-12 08:58:35,375] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to change the baudrate
+[2024-04-12 08:58:35,415] [DXL_Conmunication .DXL_motor_1] [INFO]: pingMotor : [ID:001] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 08:58:35,447] [DXL_Conmunication .DXL_motor_2] [INFO]: pingMotor : [ID:002] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 08:58:35,479] [DXL_Conmunication .DXL_motor_3] [INFO]: pingMotor : [ID:003] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 08:58:35,511] [DXL_Conmunication .DXL_motor_4] [INFO]: pingMotor : [ID:004] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 08:58:35,543] [DXL_Conmunication .DXL_motor_5] [INFO]: pingMotor : [ID:005] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 08:58:35,559] [DXL_Conmunication .DXL_motor_1] [INFO]: rebootMotor : [ID:1] reboot Succeeded
+[2024-04-12 08:58:35,575] [DXL_Conmunication .DXL_motor_2] [INFO]: rebootMotor : [ID:2] reboot Succeeded
+[2024-04-12 08:58:35,591] [DXL_Conmunication .DXL_motor_3] [INFO]: rebootMotor : [ID:3] reboot Succeeded
+[2024-04-12 08:58:35,607] [DXL_Conmunication .DXL_motor_4] [INFO]: rebootMotor : [ID:4] reboot Succeeded
+[2024-04-12 08:58:35,623] [DXL_Conmunication .DXL_motor_5] [INFO]: rebootMotor : [ID:5] reboot Succeeded
+[2024-04-12 08:58:38,743] [DXL_Conmunication .DXL_motor_1] [INFO]: enableMotor : Motor1 is successfully armed
+[2024-04-12 08:58:38,759] [DXL_Conmunication .DXL_motor_2] [INFO]: enableMotor : Motor2 is successfully armed
+[2024-04-12 08:58:38,775] [DXL_Conmunication .DXL_motor_4] [INFO]: enableMotor : Motor4 is successfully armed
+[2024-04-12 08:58:38,791] [DXL_Conmunication .DXL_motor_5] [INFO]: enableMotor : Motor5 is successfully armed
+[2024-04-12 08:58:38,806] [DXL_Conmunication .DXL_motor_3] [INFO]: enableMotor : Motor3 is successfully armed
+[2024-04-12 08:59:01,653] [DXL_Conmunication .DXL_motor_1] [INFO]: disableMotor : Motor1 disarmed SUCCESSFULLY
+[2024-04-12 08:59:01,669] [DXL_Conmunication .DXL_motor_2] [INFO]: disableMotor : Motor2 disarmed SUCCESSFULLY
+[2024-04-12 08:59:01,685] [DXL_Conmunication .DXL_motor_4] [INFO]: disableMotor : Motor4 disarmed SUCCESSFULLY
+[2024-04-12 08:59:01,701] [DXL_Conmunication .DXL_motor_5] [INFO]: disableMotor : Motor5 disarmed SUCCESSFULLY
+[2024-04-12 08:59:01,717] [DXL_Conmunication .DXL_motor_3] [INFO]: disableMotor : Motor3 disarmed SUCCESSFULLY
+[2024-04-12 09:35:58,161] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to open the port
+[2024-04-12 09:35:58,167] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to change the baudrate
+[2024-04-12 09:35:58,208] [DXL_Conmunication .DXL_motor_1] [INFO]: pingMotor : [ID:001] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 09:35:58,239] [DXL_Conmunication .DXL_motor_2] [INFO]: pingMotor : [ID:002] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 09:35:58,271] [DXL_Conmunication .DXL_motor_3] [INFO]: pingMotor : [ID:003] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 09:35:58,303] [DXL_Conmunication .DXL_motor_4] [INFO]: pingMotor : [ID:004] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 09:35:58,335] [DXL_Conmunication .DXL_motor_5] [INFO]: pingMotor : [ID:005] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 09:35:58,351] [DXL_Conmunication .DXL_motor_1] [INFO]: rebootMotor : [ID:1] reboot Succeeded
+[2024-04-12 09:35:58,367] [DXL_Conmunication .DXL_motor_2] [INFO]: rebootMotor : [ID:2] reboot Succeeded
+[2024-04-12 09:35:58,383] [DXL_Conmunication .DXL_motor_3] [INFO]: rebootMotor : [ID:3] reboot Succeeded
+[2024-04-12 09:35:58,399] [DXL_Conmunication .DXL_motor_4] [INFO]: rebootMotor : [ID:4] reboot Succeeded
+[2024-04-12 09:35:58,415] [DXL_Conmunication .DXL_motor_5] [INFO]: rebootMotor : [ID:5] reboot Succeeded
+[2024-04-12 09:36:01,535] [DXL_Conmunication .DXL_motor_1] [INFO]: enableMotor : Motor1 is successfully armed
+[2024-04-12 09:36:01,551] [DXL_Conmunication .DXL_motor_2] [INFO]: enableMotor : Motor2 is successfully armed
+[2024-04-12 09:36:01,567] [DXL_Conmunication .DXL_motor_4] [INFO]: enableMotor : Motor4 is successfully armed
+[2024-04-12 09:36:01,583] [DXL_Conmunication .DXL_motor_5] [INFO]: enableMotor : Motor5 is successfully armed
+[2024-04-12 09:36:01,599] [DXL_Conmunication .DXL_motor_3] [INFO]: enableMotor : Motor3 is successfully armed
+[2024-04-12 09:36:36,746] [DXL_Conmunication] [ERROR]: sentAllCmd : [TxRxResult] Port is in use!
+[2024-04-12 09:36:36,790] [DXL_Conmunication .DXL_motor_1] [INFO]: disableMotor : Motor1 disarmed UNSUCCESSFULLY
+[2024-04-12 09:36:36,802] [DXL_Conmunication .DXL_motor_2] [INFO]: disableMotor : Motor2 disarmed SUCCESSFULLY
+[2024-04-12 09:36:36,818] [DXL_Conmunication .DXL_motor_4] [INFO]: disableMotor : Motor4 disarmed SUCCESSFULLY
+[2024-04-12 09:36:36,834] [DXL_Conmunication .DXL_motor_5] [INFO]: disableMotor : Motor5 disarmed SUCCESSFULLY
+[2024-04-12 09:36:36,848] [DXL_Conmunication] [ERROR]: sentAllCmd : [TxRxResult] Port is in use!
+[2024-04-12 09:36:36,850] [DXL_Conmunication .DXL_motor_3] [INFO]: disableMotor : Motor3 disarmed SUCCESSFULLY
+[2024-04-12 09:40:51,133] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to open the port
+[2024-04-12 09:40:51,139] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to change the baudrate
+[2024-04-12 09:40:51,180] [DXL_Conmunication .DXL_motor_1] [INFO]: pingMotor : [ID:001] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 09:40:51,212] [DXL_Conmunication .DXL_motor_2] [INFO]: pingMotor : [ID:002] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 09:40:51,244] [DXL_Conmunication .DXL_motor_3] [INFO]: pingMotor : [ID:003] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 09:40:51,276] [DXL_Conmunication .DXL_motor_4] [INFO]: pingMotor : [ID:004] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 09:40:51,308] [DXL_Conmunication .DXL_motor_5] [INFO]: pingMotor : [ID:005] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 09:40:51,323] [DXL_Conmunication .DXL_motor_1] [INFO]: rebootMotor : [ID:1] reboot Succeeded
+[2024-04-12 09:40:51,339] [DXL_Conmunication .DXL_motor_2] [INFO]: rebootMotor : [ID:2] reboot Succeeded
+[2024-04-12 09:40:51,355] [DXL_Conmunication .DXL_motor_3] [INFO]: rebootMotor : [ID:3] reboot Succeeded
+[2024-04-12 09:40:51,371] [DXL_Conmunication .DXL_motor_4] [INFO]: rebootMotor : [ID:4] reboot Succeeded
+[2024-04-12 09:40:51,387] [DXL_Conmunication .DXL_motor_5] [INFO]: rebootMotor : [ID:5] reboot Succeeded
+[2024-04-12 09:40:54,507] [DXL_Conmunication .DXL_motor_1] [INFO]: enableMotor : Motor1 is successfully armed
+[2024-04-12 09:40:54,523] [DXL_Conmunication .DXL_motor_2] [INFO]: enableMotor : Motor2 is successfully armed
+[2024-04-12 09:40:54,539] [DXL_Conmunication .DXL_motor_4] [INFO]: enableMotor : Motor4 is successfully armed
+[2024-04-12 09:40:54,555] [DXL_Conmunication .DXL_motor_5] [INFO]: enableMotor : Motor5 is successfully armed
+[2024-04-12 09:40:54,571] [DXL_Conmunication .DXL_motor_3] [INFO]: enableMotor : Motor3 is successfully armed
+[2024-04-12 09:41:40,233] [DXL_Conmunication .DXL_motor_1] [INFO]: disableMotor : Motor1 disarmed SUCCESSFULLY
+[2024-04-12 09:41:40,249] [DXL_Conmunication .DXL_motor_2] [INFO]: disableMotor : Motor2 disarmed SUCCESSFULLY
+[2024-04-12 09:41:40,265] [DXL_Conmunication .DXL_motor_4] [INFO]: disableMotor : Motor4 disarmed SUCCESSFULLY
+[2024-04-12 09:41:40,281] [DXL_Conmunication .DXL_motor_5] [INFO]: disableMotor : Motor5 disarmed SUCCESSFULLY
+[2024-04-12 09:41:40,297] [DXL_Conmunication .DXL_motor_3] [INFO]: disableMotor : Motor3 disarmed SUCCESSFULLY
+[2024-04-12 09:54:34,486] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to open the port
+[2024-04-12 09:54:34,492] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to change the baudrate
+[2024-04-12 09:54:34,533] [DXL_Conmunication .DXL_motor_1] [INFO]: pingMotor : [ID:001] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 09:54:34,565] [DXL_Conmunication .DXL_motor_2] [INFO]: pingMotor : [ID:002] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 09:54:34,597] [DXL_Conmunication .DXL_motor_3] [INFO]: pingMotor : [ID:003] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 09:54:34,629] [DXL_Conmunication .DXL_motor_4] [INFO]: pingMotor : [ID:004] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 09:54:34,661] [DXL_Conmunication .DXL_motor_5] [INFO]: pingMotor : [ID:005] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 09:54:34,677] [DXL_Conmunication .DXL_motor_1] [INFO]: rebootMotor : [ID:1] reboot Succeeded
+[2024-04-12 09:54:34,693] [DXL_Conmunication .DXL_motor_2] [INFO]: rebootMotor : [ID:2] reboot Succeeded
+[2024-04-12 09:54:34,709] [DXL_Conmunication .DXL_motor_3] [INFO]: rebootMotor : [ID:3] reboot Succeeded
+[2024-04-12 09:54:34,725] [DXL_Conmunication .DXL_motor_4] [INFO]: rebootMotor : [ID:4] reboot Succeeded
+[2024-04-12 09:54:34,741] [DXL_Conmunication .DXL_motor_5] [INFO]: rebootMotor : [ID:5] reboot Succeeded
+[2024-04-12 09:54:37,860] [DXL_Conmunication .DXL_motor_1] [INFO]: enableMotor : Motor1 is successfully armed
+[2024-04-12 09:54:37,876] [DXL_Conmunication .DXL_motor_2] [INFO]: enableMotor : Motor2 is successfully armed
+[2024-04-12 09:54:37,892] [DXL_Conmunication .DXL_motor_4] [INFO]: enableMotor : Motor4 is successfully armed
+[2024-04-12 09:54:37,908] [DXL_Conmunication .DXL_motor_5] [INFO]: enableMotor : Motor5 is successfully armed
+[2024-04-12 09:54:37,924] [DXL_Conmunication .DXL_motor_3] [INFO]: enableMotor : Motor3 is successfully armed
+[2024-04-12 09:55:06,211] [DXL_Conmunication .DXL_motor_1] [INFO]: disableMotor : Motor1 disarmed SUCCESSFULLY
+[2024-04-12 09:55:06,227] [DXL_Conmunication .DXL_motor_2] [INFO]: disableMotor : Motor2 disarmed SUCCESSFULLY
+[2024-04-12 09:55:06,243] [DXL_Conmunication .DXL_motor_4] [INFO]: disableMotor : Motor4 disarmed SUCCESSFULLY
+[2024-04-12 09:55:06,259] [DXL_Conmunication .DXL_motor_5] [INFO]: disableMotor : Motor5 disarmed SUCCESSFULLY
+[2024-04-12 09:55:06,275] [DXL_Conmunication .DXL_motor_3] [INFO]: disableMotor : Motor3 disarmed SUCCESSFULLY
+[2024-04-12 09:56:05,638] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to open the port
+[2024-04-12 09:56:05,644] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to change the baudrate
+[2024-04-12 09:56:05,685] [DXL_Conmunication .DXL_motor_1] [INFO]: pingMotor : [ID:001] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 09:56:05,717] [DXL_Conmunication .DXL_motor_2] [INFO]: pingMotor : [ID:002] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 09:56:05,749] [DXL_Conmunication .DXL_motor_3] [INFO]: pingMotor : [ID:003] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 09:56:05,781] [DXL_Conmunication .DXL_motor_4] [INFO]: pingMotor : [ID:004] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 09:56:05,813] [DXL_Conmunication .DXL_motor_5] [INFO]: pingMotor : [ID:005] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 09:56:05,829] [DXL_Conmunication .DXL_motor_1] [INFO]: rebootMotor : [ID:1] reboot Succeeded
+[2024-04-12 09:56:05,845] [DXL_Conmunication .DXL_motor_2] [INFO]: rebootMotor : [ID:2] reboot Succeeded
+[2024-04-12 09:56:05,861] [DXL_Conmunication .DXL_motor_3] [INFO]: rebootMotor : [ID:3] reboot Succeeded
+[2024-04-12 09:56:05,877] [DXL_Conmunication .DXL_motor_4] [INFO]: rebootMotor : [ID:4] reboot Succeeded
+[2024-04-12 09:56:05,893] [DXL_Conmunication .DXL_motor_5] [INFO]: rebootMotor : [ID:5] reboot Succeeded
+[2024-04-12 09:56:09,012] [DXL_Conmunication .DXL_motor_1] [INFO]: enableMotor : Motor1 is successfully armed
+[2024-04-12 09:56:09,028] [DXL_Conmunication .DXL_motor_2] [INFO]: enableMotor : Motor2 is successfully armed
+[2024-04-12 09:56:09,044] [DXL_Conmunication .DXL_motor_4] [INFO]: enableMotor : Motor4 is successfully armed
+[2024-04-12 09:56:09,060] [DXL_Conmunication .DXL_motor_5] [INFO]: enableMotor : Motor5 is successfully armed
+[2024-04-12 09:56:09,076] [DXL_Conmunication .DXL_motor_3] [INFO]: enableMotor : Motor3 is successfully armed
+[2024-04-12 09:56:58,418] [DXL_Conmunication .DXL_motor_1] [INFO]: disableMotor : Motor1 disarmed SUCCESSFULLY
+[2024-04-12 09:56:58,434] [DXL_Conmunication .DXL_motor_2] [INFO]: disableMotor : Motor2 disarmed SUCCESSFULLY
+[2024-04-12 09:56:58,450] [DXL_Conmunication .DXL_motor_4] [INFO]: disableMotor : Motor4 disarmed SUCCESSFULLY
+[2024-04-12 09:56:58,466] [DXL_Conmunication .DXL_motor_5] [INFO]: disableMotor : Motor5 disarmed SUCCESSFULLY
+[2024-04-12 09:56:58,482] [DXL_Conmunication .DXL_motor_3] [INFO]: disableMotor : Motor3 disarmed SUCCESSFULLY
+[2024-04-12 10:08:59,490] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to open the port
+[2024-04-12 10:08:59,496] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to change the baudrate
+[2024-04-12 10:08:59,536] [DXL_Conmunication .DXL_motor_1] [INFO]: pingMotor : [ID:001] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 10:08:59,568] [DXL_Conmunication .DXL_motor_2] [INFO]: pingMotor : [ID:002] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 10:08:59,600] [DXL_Conmunication .DXL_motor_3] [INFO]: pingMotor : [ID:003] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 10:08:59,632] [DXL_Conmunication .DXL_motor_4] [INFO]: pingMotor : [ID:004] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 10:08:59,664] [DXL_Conmunication .DXL_motor_5] [INFO]: pingMotor : [ID:005] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 10:08:59,680] [DXL_Conmunication .DXL_motor_1] [INFO]: rebootMotor : [ID:1] reboot Succeeded
+[2024-04-12 10:08:59,696] [DXL_Conmunication .DXL_motor_2] [INFO]: rebootMotor : [ID:2] reboot Succeeded
+[2024-04-12 10:08:59,712] [DXL_Conmunication .DXL_motor_3] [INFO]: rebootMotor : [ID:3] reboot Succeeded
+[2024-04-12 10:08:59,728] [DXL_Conmunication .DXL_motor_4] [INFO]: rebootMotor : [ID:4] reboot Succeeded
+[2024-04-12 10:08:59,744] [DXL_Conmunication .DXL_motor_5] [INFO]: rebootMotor : [ID:5] reboot Succeeded
+[2024-04-12 10:09:02,864] [DXL_Conmunication .DXL_motor_1] [INFO]: enableMotor : Motor1 is successfully armed
+[2024-04-12 10:09:02,880] [DXL_Conmunication .DXL_motor_2] [INFO]: enableMotor : Motor2 is successfully armed
+[2024-04-12 10:09:02,896] [DXL_Conmunication .DXL_motor_4] [INFO]: enableMotor : Motor4 is successfully armed
+[2024-04-12 10:09:02,912] [DXL_Conmunication .DXL_motor_5] [INFO]: enableMotor : Motor5 is successfully armed
+[2024-04-12 10:09:02,928] [DXL_Conmunication .DXL_motor_3] [INFO]: enableMotor : Motor3 is successfully armed
+[2024-04-12 10:09:41,381] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to open the port
+[2024-04-12 10:09:41,387] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to change the baudrate
+[2024-04-12 10:09:41,428] [DXL_Conmunication .DXL_motor_1] [INFO]: pingMotor : [ID:001] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 10:09:41,460] [DXL_Conmunication .DXL_motor_2] [INFO]: pingMotor : [ID:002] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 10:09:41,492] [DXL_Conmunication .DXL_motor_3] [INFO]: pingMotor : [ID:003] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 10:09:41,524] [DXL_Conmunication .DXL_motor_4] [INFO]: pingMotor : [ID:004] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 10:09:41,556] [DXL_Conmunication .DXL_motor_5] [INFO]: pingMotor : [ID:005] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 10:09:41,572] [DXL_Conmunication .DXL_motor_1] [INFO]: rebootMotor : [ID:1] reboot Succeeded
+[2024-04-12 10:09:41,588] [DXL_Conmunication .DXL_motor_2] [INFO]: rebootMotor : [ID:2] reboot Succeeded
+[2024-04-12 10:09:41,604] [DXL_Conmunication .DXL_motor_3] [INFO]: rebootMotor : [ID:3] reboot Succeeded
+[2024-04-12 10:09:41,620] [DXL_Conmunication .DXL_motor_4] [INFO]: rebootMotor : [ID:4] reboot Succeeded
+[2024-04-12 10:09:41,636] [DXL_Conmunication .DXL_motor_5] [INFO]: rebootMotor : [ID:5] reboot Succeeded
+[2024-04-12 10:09:44,755] [DXL_Conmunication .DXL_motor_1] [INFO]: enableMotor : Motor1 is successfully armed
+[2024-04-12 10:09:44,772] [DXL_Conmunication .DXL_motor_2] [INFO]: enableMotor : Motor2 is successfully armed
+[2024-04-12 10:09:44,787] [DXL_Conmunication .DXL_motor_4] [INFO]: enableMotor : Motor4 is successfully armed
+[2024-04-12 10:09:44,803] [DXL_Conmunication .DXL_motor_5] [INFO]: enableMotor : Motor5 is successfully armed
+[2024-04-12 10:09:44,819] [DXL_Conmunication .DXL_motor_3] [INFO]: enableMotor : Motor3 is successfully armed
+[2024-04-12 10:11:12,590] [DXL_Conmunication .DXL_motor_1] [INFO]: disableMotor : Motor1 disarmed UNSUCCESSFULLY
+[2024-04-12 10:11:12,664] [DXL_Conmunication .DXL_motor_2] [INFO]: disableMotor : Motor2 disarmed UNSUCCESSFULLY
+[2024-04-12 10:11:12,738] [DXL_Conmunication .DXL_motor_4] [INFO]: disableMotor : Motor4 disarmed UNSUCCESSFULLY
+[2024-04-12 10:11:12,813] [DXL_Conmunication .DXL_motor_5] [INFO]: disableMotor : Motor5 disarmed UNSUCCESSFULLY
+[2024-04-12 10:11:12,887] [DXL_Conmunication .DXL_motor_3] [INFO]: disableMotor : Motor3 disarmed UNSUCCESSFULLY
+[2024-04-12 10:11:48,523] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to open the port
+[2024-04-12 10:11:48,529] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to change the baudrate
+[2024-04-12 10:11:48,569] [DXL_Conmunication .DXL_motor_1] [INFO]: pingMotor : [ID:001] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 10:11:48,601] [DXL_Conmunication .DXL_motor_2] [INFO]: pingMotor : [ID:002] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 10:11:48,633] [DXL_Conmunication .DXL_motor_3] [INFO]: pingMotor : [ID:003] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 10:11:48,665] [DXL_Conmunication .DXL_motor_4] [INFO]: pingMotor : [ID:004] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 10:11:48,697] [DXL_Conmunication .DXL_motor_5] [INFO]: pingMotor : [ID:005] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 10:11:48,713] [DXL_Conmunication .DXL_motor_1] [INFO]: rebootMotor : [ID:1] reboot Succeeded
+[2024-04-12 10:11:48,729] [DXL_Conmunication .DXL_motor_2] [INFO]: rebootMotor : [ID:2] reboot Succeeded
+[2024-04-12 10:11:48,745] [DXL_Conmunication .DXL_motor_3] [INFO]: rebootMotor : [ID:3] reboot Succeeded
+[2024-04-12 10:11:48,761] [DXL_Conmunication .DXL_motor_4] [INFO]: rebootMotor : [ID:4] reboot Succeeded
+[2024-04-12 10:11:48,777] [DXL_Conmunication .DXL_motor_5] [INFO]: rebootMotor : [ID:5] reboot Succeeded
+[2024-04-12 10:11:51,896] [DXL_Conmunication .DXL_motor_1] [INFO]: enableMotor : Motor1 is successfully armed
+[2024-04-12 10:11:51,912] [DXL_Conmunication .DXL_motor_2] [INFO]: enableMotor : Motor2 is successfully armed
+[2024-04-12 10:11:51,929] [DXL_Conmunication .DXL_motor_4] [INFO]: enableMotor : Motor4 is successfully armed
+[2024-04-12 10:11:51,944] [DXL_Conmunication .DXL_motor_5] [INFO]: enableMotor : Motor5 is successfully armed
+[2024-04-12 10:11:51,960] [DXL_Conmunication .DXL_motor_3] [INFO]: enableMotor : Motor3 is successfully armed
+[2024-04-12 10:13:20,788] [DXL_Conmunication .DXL_motor_1] [INFO]: disableMotor : Motor1 disarmed SUCCESSFULLY
+[2024-04-12 10:13:20,804] [DXL_Conmunication .DXL_motor_2] [INFO]: disableMotor : Motor2 disarmed SUCCESSFULLY
+[2024-04-12 10:13:20,820] [DXL_Conmunication .DXL_motor_4] [INFO]: disableMotor : Motor4 disarmed SUCCESSFULLY
+[2024-04-12 10:13:20,836] [DXL_Conmunication .DXL_motor_5] [INFO]: disableMotor : Motor5 disarmed SUCCESSFULLY
+[2024-04-12 10:13:20,852] [DXL_Conmunication .DXL_motor_3] [INFO]: disableMotor : Motor3 disarmed SUCCESSFULLY
+[2024-04-12 10:25:24,482] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to open the port
+[2024-04-12 10:25:24,488] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to change the baudrate
+[2024-04-12 10:25:24,529] [DXL_Conmunication .DXL_motor_1] [INFO]: pingMotor : [ID:001] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 10:25:24,561] [DXL_Conmunication .DXL_motor_2] [INFO]: pingMotor : [ID:002] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 10:25:24,593] [DXL_Conmunication .DXL_motor_3] [INFO]: pingMotor : [ID:003] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 10:25:24,625] [DXL_Conmunication .DXL_motor_4] [INFO]: pingMotor : [ID:004] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 10:25:24,657] [DXL_Conmunication .DXL_motor_5] [INFO]: pingMotor : [ID:005] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 10:25:24,672] [DXL_Conmunication .DXL_motor_1] [INFO]: rebootMotor : [ID:1] reboot Succeeded
+[2024-04-12 10:25:24,688] [DXL_Conmunication .DXL_motor_2] [INFO]: rebootMotor : [ID:2] reboot Succeeded
+[2024-04-12 10:25:24,704] [DXL_Conmunication .DXL_motor_3] [INFO]: rebootMotor : [ID:3] reboot Succeeded
+[2024-04-12 10:25:24,721] [DXL_Conmunication .DXL_motor_4] [INFO]: rebootMotor : [ID:4] reboot Succeeded
+[2024-04-12 10:25:24,736] [DXL_Conmunication .DXL_motor_5] [INFO]: rebootMotor : [ID:5] reboot Succeeded
+[2024-04-12 10:25:27,856] [DXL_Conmunication .DXL_motor_1] [INFO]: enableMotor : Motor1 is successfully armed
+[2024-04-12 10:25:27,872] [DXL_Conmunication .DXL_motor_2] [INFO]: enableMotor : Motor2 is successfully armed
+[2024-04-12 10:25:27,888] [DXL_Conmunication .DXL_motor_4] [INFO]: enableMotor : Motor4 is successfully armed
+[2024-04-12 10:25:27,904] [DXL_Conmunication .DXL_motor_5] [INFO]: enableMotor : Motor5 is successfully armed
+[2024-04-12 10:25:27,920] [DXL_Conmunication .DXL_motor_3] [INFO]: enableMotor : Motor3 is successfully armed
+[2024-04-12 10:26:05,324] [DXL_Conmunication .DXL_motor_1] [INFO]: disableMotor : Motor1 disarmed SUCCESSFULLY
+[2024-04-12 10:26:05,340] [DXL_Conmunication .DXL_motor_2] [INFO]: disableMotor : Motor2 disarmed SUCCESSFULLY
+[2024-04-12 10:26:05,344] [DXL_Conmunication] [ERROR]: sentAllCmd : [TxRxResult] Port is in use!
+[2024-04-12 10:26:05,356] [DXL_Conmunication .DXL_motor_4] [INFO]: disableMotor : Motor4 disarmed SUCCESSFULLY
+[2024-04-12 10:26:05,372] [DXL_Conmunication .DXL_motor_5] [INFO]: disableMotor : Motor5 disarmed SUCCESSFULLY
+[2024-04-12 10:26:05,388] [DXL_Conmunication .DXL_motor_3] [INFO]: disableMotor : Motor3 disarmed SUCCESSFULLY
+[2024-04-12 10:26:18,444] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to open the port
+[2024-04-12 10:26:18,450] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to change the baudrate
+[2024-04-12 10:26:18,475] [DXL_Conmunication .DXL_motor_1] [INFO]: pingMotor : [ID:001] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 10:26:18,507] [DXL_Conmunication .DXL_motor_2] [INFO]: pingMotor : [ID:002] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 10:26:18,539] [DXL_Conmunication .DXL_motor_3] [INFO]: pingMotor : [ID:003] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 10:26:18,571] [DXL_Conmunication .DXL_motor_4] [INFO]: pingMotor : [ID:004] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 10:26:18,603] [DXL_Conmunication .DXL_motor_5] [INFO]: pingMotor : [ID:005] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 10:26:18,619] [DXL_Conmunication .DXL_motor_1] [INFO]: rebootMotor : [ID:1] reboot Succeeded
+[2024-04-12 10:26:18,635] [DXL_Conmunication .DXL_motor_2] [INFO]: rebootMotor : [ID:2] reboot Succeeded
+[2024-04-12 10:26:18,651] [DXL_Conmunication .DXL_motor_3] [INFO]: rebootMotor : [ID:3] reboot Succeeded
+[2024-04-12 10:26:18,667] [DXL_Conmunication .DXL_motor_4] [INFO]: rebootMotor : [ID:4] reboot Succeeded
+[2024-04-12 10:26:18,683] [DXL_Conmunication .DXL_motor_5] [INFO]: rebootMotor : [ID:5] reboot Succeeded
+[2024-04-12 10:26:21,803] [DXL_Conmunication .DXL_motor_1] [INFO]: enableMotor : Motor1 is successfully armed
+[2024-04-12 10:26:21,818] [DXL_Conmunication .DXL_motor_2] [INFO]: enableMotor : Motor2 is successfully armed
+[2024-04-12 10:26:21,834] [DXL_Conmunication .DXL_motor_4] [INFO]: enableMotor : Motor4 is successfully armed
+[2024-04-12 10:26:21,850] [DXL_Conmunication .DXL_motor_5] [INFO]: enableMotor : Motor5 is successfully armed
+[2024-04-12 10:26:21,866] [DXL_Conmunication .DXL_motor_3] [INFO]: enableMotor : Motor3 is successfully armed
+[2024-04-12 10:26:31,570] [DXL_Conmunication] [ERROR]: sentAllCmd : [TxRxResult] Port is in use!
+[2024-04-12 10:26:31,637] [DXL_Conmunication .DXL_motor_1] [INFO]: disableMotor : Motor1 disarmed UNSUCCESSFULLY
+[2024-04-12 10:26:31,711] [DXL_Conmunication .DXL_motor_2] [INFO]: disableMotor : Motor2 disarmed UNSUCCESSFULLY
+[2024-04-12 10:26:31,785] [DXL_Conmunication .DXL_motor_4] [INFO]: disableMotor : Motor4 disarmed UNSUCCESSFULLY
+[2024-04-12 10:26:31,860] [DXL_Conmunication .DXL_motor_5] [INFO]: disableMotor : Motor5 disarmed UNSUCCESSFULLY
+[2024-04-12 10:26:31,934] [DXL_Conmunication .DXL_motor_3] [INFO]: disableMotor : Motor3 disarmed UNSUCCESSFULLY
+[2024-04-12 10:27:05,132] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to open the port
+[2024-04-12 10:27:05,138] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to change the baudrate
+[2024-04-12 10:27:05,178] [DXL_Conmunication .DXL_motor_1] [INFO]: directReadData : com_err_msg : [TxRxResult] There is no status packet! at ID: 1
+[2024-04-12 10:27:05,215] [DXL_Conmunication .DXL_motor_1] [INFO]: pingMotor : DXL: Ping Error: [TxRxResult] There is no status packet! at ID:1
+[2024-04-12 10:27:05,216] [DXL_Conmunication] [WARNING]: createMotor : Motor 1 connect error
+[2024-04-12 10:27:05,255] [DXL_Conmunication .DXL_motor_2] [INFO]: directReadData : com_err_msg : [TxRxResult] There is no status packet! at ID: 2
+[2024-04-12 10:27:05,293] [DXL_Conmunication .DXL_motor_2] [INFO]: pingMotor : DXL: Ping Error: [TxRxResult] There is no status packet! at ID:2
+[2024-04-12 10:27:05,295] [DXL_Conmunication] [WARNING]: createMotor : Motor 2 connect error
+[2024-04-12 10:27:05,334] [DXL_Conmunication .DXL_motor_3] [INFO]: directReadData : com_err_msg : [TxRxResult] There is no status packet! at ID: 3
+[2024-04-12 10:27:05,371] [DXL_Conmunication .DXL_motor_3] [INFO]: pingMotor : DXL: Ping Error: [TxRxResult] There is no status packet! at ID:3
+[2024-04-12 10:27:05,373] [DXL_Conmunication] [WARNING]: createMotor : Motor 3 connect error
+[2024-04-12 10:27:05,411] [DXL_Conmunication .DXL_motor_4] [INFO]: directReadData : com_err_msg : [TxRxResult] There is no status packet! at ID: 4
+[2024-04-12 10:27:05,449] [DXL_Conmunication .DXL_motor_4] [INFO]: pingMotor : DXL: Ping Error: [TxRxResult] There is no status packet! at ID:4
+[2024-04-12 10:27:05,450] [DXL_Conmunication] [WARNING]: createMotor : Motor 4 connect error
+[2024-04-12 10:27:05,489] [DXL_Conmunication .DXL_motor_5] [INFO]: directReadData : com_err_msg : [TxRxResult] There is no status packet! at ID: 5
+[2024-04-12 10:27:05,526] [DXL_Conmunication .DXL_motor_5] [INFO]: pingMotor : DXL: Ping Error: [TxRxResult] There is no status packet! at ID:5
+[2024-04-12 10:27:05,527] [DXL_Conmunication] [WARNING]: createMotor : Motor 5 connect error
+[2024-04-12 10:27:08,532] [DXL_Conmunication] [WARNING]: updateMotorData : Failed: [TxRxResult] Protocol does not support this function!
+[2024-04-12 10:27:23,505] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to open the port
+[2024-04-12 10:27:23,511] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to change the baudrate
+[2024-04-12 10:27:23,551] [DXL_Conmunication .DXL_motor_1] [INFO]: directReadData : com_err_msg : [TxRxResult] There is no status packet! at ID: 1
+[2024-04-12 10:27:23,589] [DXL_Conmunication .DXL_motor_1] [INFO]: pingMotor : DXL: Ping Error: [TxRxResult] There is no status packet! at ID:1
+[2024-04-12 10:27:23,590] [DXL_Conmunication] [WARNING]: createMotor : Motor 1 connect error
+[2024-04-12 10:27:23,629] [DXL_Conmunication .DXL_motor_2] [INFO]: directReadData : com_err_msg : [TxRxResult] There is no status packet! at ID: 2
+[2024-04-12 10:27:23,667] [DXL_Conmunication .DXL_motor_2] [INFO]: pingMotor : DXL: Ping Error: [TxRxResult] There is no status packet! at ID:2
+[2024-04-12 10:27:23,668] [DXL_Conmunication] [WARNING]: createMotor : Motor 2 connect error
+[2024-04-12 10:27:23,707] [DXL_Conmunication .DXL_motor_3] [INFO]: directReadData : com_err_msg : [TxRxResult] There is no status packet! at ID: 3
+[2024-04-12 10:27:23,745] [DXL_Conmunication .DXL_motor_3] [INFO]: pingMotor : DXL: Ping Error: [TxRxResult] There is no status packet! at ID:3
+[2024-04-12 10:27:23,746] [DXL_Conmunication] [WARNING]: createMotor : Motor 3 connect error
+[2024-04-12 10:27:23,785] [DXL_Conmunication .DXL_motor_4] [INFO]: directReadData : com_err_msg : [TxRxResult] There is no status packet! at ID: 4
+[2024-04-12 10:27:23,822] [DXL_Conmunication .DXL_motor_4] [INFO]: pingMotor : DXL: Ping Error: [TxRxResult] There is no status packet! at ID:4
+[2024-04-12 10:27:23,824] [DXL_Conmunication] [WARNING]: createMotor : Motor 4 connect error
+[2024-04-12 10:27:23,863] [DXL_Conmunication .DXL_motor_5] [INFO]: directReadData : com_err_msg : [TxRxResult] There is no status packet! at ID: 5
+[2024-04-12 10:27:23,900] [DXL_Conmunication .DXL_motor_5] [INFO]: pingMotor : DXL: Ping Error: [TxRxResult] There is no status packet! at ID:5
+[2024-04-12 10:27:23,902] [DXL_Conmunication] [WARNING]: createMotor : Motor 5 connect error
+[2024-04-12 10:27:26,906] [DXL_Conmunication] [WARNING]: updateMotorData : Failed: [TxRxResult] Protocol does not support this function!
+[2024-04-12 10:27:45,885] [DXL_Conmunication] [ERROR]: activateDXLConnection : 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/serial/serialposix.py", line 322, in open
+    self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+FileNotFoundError: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/pangolin_ws/build/pangolin_control/driver/DXL_motor_control.py", line 46, in activateDXLConnection
+    if self.port_handler.openPort():
+  File "/usr/local/lib/python3.10/dist-packages/dynamixel_sdk-3.7.51-py3.10.egg/dynamixel_sdk/port_handler.py", line 44, in openPort
+    return self.setBaudRate(self.baudrate)
+  File "/usr/local/lib/python3.10/dist-packages/dynamixel_sdk-3.7.51-py3.10.egg/dynamixel_sdk/port_handler.py", line 68, in setBaudRate
+    return self.setupPort(baud)
+  File "/usr/local/lib/python3.10/dist-packages/dynamixel_sdk-3.7.51-py3.10.egg/dynamixel_sdk/port_handler.py", line 114, in setupPort
+    self.ser = serial.Serial(
+  File "/usr/lib/python3/dist-packages/serial/serialutil.py", line 244, in __init__
+    self.open()
+  File "/usr/lib/python3/dist-packages/serial/serialposix.py", line 325, in open
+    raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+serial.serialutil.SerialException: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+[2024-04-12 10:27:45,903] [DXL_Conmunication] [WARNING]: activateDXLConnection : Failed to open the port
+[2024-04-12 10:27:45,904] [DXL_Conmunication] [WARNING]: activateDXLConnection : System will run WITHOUT Real Mortor
+[2024-04-12 10:27:51,621] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to open the port
+[2024-04-12 10:27:51,627] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to change the baudrate
+[2024-04-12 10:27:51,667] [DXL_Conmunication .DXL_motor_1] [INFO]: pingMotor : [ID:001] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 10:27:51,699] [DXL_Conmunication .DXL_motor_2] [INFO]: pingMotor : [ID:002] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 10:27:51,731] [DXL_Conmunication .DXL_motor_3] [INFO]: pingMotor : [ID:003] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 10:27:51,763] [DXL_Conmunication .DXL_motor_4] [INFO]: pingMotor : [ID:004] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 10:27:51,795] [DXL_Conmunication .DXL_motor_5] [INFO]: pingMotor : [ID:005] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 10:27:51,811] [DXL_Conmunication .DXL_motor_1] [INFO]: rebootMotor : [ID:1] reboot Succeeded
+[2024-04-12 10:27:51,827] [DXL_Conmunication .DXL_motor_2] [INFO]: rebootMotor : [ID:2] reboot Succeeded
+[2024-04-12 10:27:51,843] [DXL_Conmunication .DXL_motor_3] [INFO]: rebootMotor : [ID:3] reboot Succeeded
+[2024-04-12 10:27:51,859] [DXL_Conmunication .DXL_motor_4] [INFO]: rebootMotor : [ID:4] reboot Succeeded
+[2024-04-12 10:27:51,875] [DXL_Conmunication .DXL_motor_5] [INFO]: rebootMotor : [ID:5] reboot Succeeded
+[2024-04-12 10:27:54,995] [DXL_Conmunication .DXL_motor_1] [INFO]: enableMotor : Motor1 is successfully armed
+[2024-04-12 10:27:55,011] [DXL_Conmunication .DXL_motor_2] [INFO]: enableMotor : Motor2 is successfully armed
+[2024-04-12 10:27:55,027] [DXL_Conmunication .DXL_motor_4] [INFO]: enableMotor : Motor4 is successfully armed
+[2024-04-12 10:27:55,043] [DXL_Conmunication .DXL_motor_5] [INFO]: enableMotor : Motor5 is successfully armed
+[2024-04-12 10:27:55,059] [DXL_Conmunication .DXL_motor_3] [INFO]: enableMotor : Motor3 is successfully armed
+[2024-04-12 10:28:31,168] [DXL_Conmunication .DXL_motor_1] [INFO]: disableMotor : Motor1 disarmed SUCCESSFULLY
+[2024-04-12 10:28:31,183] [DXL_Conmunication .DXL_motor_2] [INFO]: disableMotor : Motor2 disarmed SUCCESSFULLY
+[2024-04-12 10:28:31,199] [DXL_Conmunication .DXL_motor_4] [INFO]: disableMotor : Motor4 disarmed SUCCESSFULLY
+[2024-04-12 10:28:31,215] [DXL_Conmunication .DXL_motor_5] [INFO]: disableMotor : Motor5 disarmed SUCCESSFULLY
+[2024-04-12 10:28:31,231] [DXL_Conmunication .DXL_motor_3] [INFO]: disableMotor : Motor3 disarmed SUCCESSFULLY
+[2024-04-12 10:28:35,791] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to open the port
+[2024-04-12 10:28:35,797] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to change the baudrate
+[2024-04-12 10:28:35,837] [DXL_Conmunication .DXL_motor_1] [INFO]: pingMotor : [ID:001] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 10:28:35,869] [DXL_Conmunication .DXL_motor_2] [INFO]: pingMotor : [ID:002] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 10:28:35,901] [DXL_Conmunication .DXL_motor_3] [INFO]: pingMotor : [ID:003] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 10:28:35,933] [DXL_Conmunication .DXL_motor_4] [INFO]: pingMotor : [ID:004] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 10:28:35,965] [DXL_Conmunication .DXL_motor_5] [INFO]: pingMotor : [ID:005] ping Succeeded. Dynamixel model number : 1060
+[2024-04-12 10:28:35,981] [DXL_Conmunication .DXL_motor_1] [INFO]: rebootMotor : [ID:1] reboot Succeeded
+[2024-04-12 10:28:35,997] [DXL_Conmunication .DXL_motor_2] [INFO]: rebootMotor : [ID:2] reboot Succeeded
+[2024-04-12 10:28:36,013] [DXL_Conmunication .DXL_motor_3] [INFO]: rebootMotor : [ID:3] reboot Succeeded
+[2024-04-12 10:28:36,029] [DXL_Conmunication .DXL_motor_4] [INFO]: rebootMotor : [ID:4] reboot Succeeded
+[2024-04-12 10:28:36,045] [DXL_Conmunication .DXL_motor_5] [INFO]: rebootMotor : [ID:5] reboot Succeeded
+[2024-04-12 10:28:39,165] [DXL_Conmunication .DXL_motor_1] [INFO]: enableMotor : Motor1 is successfully armed
+[2024-04-12 10:28:39,181] [DXL_Conmunication .DXL_motor_2] [INFO]: enableMotor : Motor2 is successfully armed
+[2024-04-12 10:28:39,197] [DXL_Conmunication .DXL_motor_4] [INFO]: enableMotor : Motor4 is successfully armed
+[2024-04-12 10:28:39,213] [DXL_Conmunication .DXL_motor_5] [INFO]: enableMotor : Motor5 is successfully armed
+[2024-04-12 10:28:39,229] [DXL_Conmunication .DXL_motor_3] [INFO]: enableMotor : Motor3 is successfully armed
+[2024-04-12 10:30:02,053] [DXL_Conmunication .DXL_motor_1] [INFO]: disableMotor : Motor1 disarmed SUCCESSFULLY
+[2024-04-12 10:30:02,069] [DXL_Conmunication .DXL_motor_2] [INFO]: disableMotor : Motor2 disarmed SUCCESSFULLY
+[2024-04-12 10:30:02,085] [DXL_Conmunication .DXL_motor_4] [INFO]: disableMotor : Motor4 disarmed SUCCESSFULLY
+[2024-04-12 10:30:02,101] [DXL_Conmunication .DXL_motor_5] [INFO]: disableMotor : Motor5 disarmed SUCCESSFULLY
+[2024-04-12 10:30:02,117] [DXL_Conmunication .DXL_motor_3] [INFO]: disableMotor : Motor3 disarmed SUCCESSFULLY
+[2024-04-14 03:02:19,200] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to open the port
+[2024-04-14 03:02:19,213] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to change the baudrate
+[2024-04-14 03:02:19,246] [DXL_Conmunication .DXL_motor_1] [INFO]: pingMotor : [ID:001] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 03:02:19,278] [DXL_Conmunication .DXL_motor_2] [INFO]: pingMotor : [ID:002] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 03:02:19,310] [DXL_Conmunication .DXL_motor_3] [INFO]: pingMotor : [ID:003] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 03:02:19,342] [DXL_Conmunication .DXL_motor_4] [INFO]: pingMotor : [ID:004] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 03:02:19,374] [DXL_Conmunication .DXL_motor_5] [INFO]: pingMotor : [ID:005] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 03:02:19,390] [DXL_Conmunication .DXL_motor_1] [INFO]: rebootMotor : [ID:1] reboot Succeeded
+[2024-04-14 03:02:19,406] [DXL_Conmunication .DXL_motor_2] [INFO]: rebootMotor : [ID:2] reboot Succeeded
+[2024-04-14 03:02:19,422] [DXL_Conmunication .DXL_motor_3] [INFO]: rebootMotor : [ID:3] reboot Succeeded
+[2024-04-14 03:02:19,438] [DXL_Conmunication .DXL_motor_4] [INFO]: rebootMotor : [ID:4] reboot Succeeded
+[2024-04-14 03:02:19,454] [DXL_Conmunication .DXL_motor_5] [INFO]: rebootMotor : [ID:5] reboot Succeeded
+[2024-04-14 03:02:22,574] [DXL_Conmunication .DXL_motor_1] [INFO]: enableMotor : Motor1 is successfully armed
+[2024-04-14 03:02:22,590] [DXL_Conmunication .DXL_motor_2] [INFO]: enableMotor : Motor2 is successfully armed
+[2024-04-14 03:02:22,606] [DXL_Conmunication .DXL_motor_4] [INFO]: enableMotor : Motor4 is successfully armed
+[2024-04-14 03:02:22,622] [DXL_Conmunication .DXL_motor_5] [INFO]: enableMotor : Motor5 is successfully armed
+[2024-04-14 03:02:22,638] [DXL_Conmunication .DXL_motor_3] [INFO]: enableMotor : Motor3 is successfully armed
+[2024-04-14 03:06:00,945] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to open the port
+[2024-04-14 03:06:00,951] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to change the baudrate
+[2024-04-14 03:06:00,991] [DXL_Conmunication .DXL_motor_1] [INFO]: pingMotor : [ID:001] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 03:06:01,023] [DXL_Conmunication .DXL_motor_2] [INFO]: pingMotor : [ID:002] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 03:06:01,055] [DXL_Conmunication .DXL_motor_3] [INFO]: pingMotor : [ID:003] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 03:06:01,087] [DXL_Conmunication .DXL_motor_4] [INFO]: pingMotor : [ID:004] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 03:06:01,119] [DXL_Conmunication .DXL_motor_5] [INFO]: pingMotor : [ID:005] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 03:06:01,135] [DXL_Conmunication .DXL_motor_1] [INFO]: rebootMotor : [ID:1] reboot Succeeded
+[2024-04-14 03:06:01,151] [DXL_Conmunication .DXL_motor_2] [INFO]: rebootMotor : [ID:2] reboot Succeeded
+[2024-04-14 03:06:01,167] [DXL_Conmunication .DXL_motor_3] [INFO]: rebootMotor : [ID:3] reboot Succeeded
+[2024-04-14 03:06:01,183] [DXL_Conmunication .DXL_motor_4] [INFO]: rebootMotor : [ID:4] reboot Succeeded
+[2024-04-14 03:06:01,199] [DXL_Conmunication .DXL_motor_5] [INFO]: rebootMotor : [ID:5] reboot Succeeded
+[2024-04-14 03:06:04,319] [DXL_Conmunication .DXL_motor_1] [INFO]: enableMotor : Motor1 is successfully armed
+[2024-04-14 03:06:04,335] [DXL_Conmunication .DXL_motor_2] [INFO]: enableMotor : Motor2 is successfully armed
+[2024-04-14 03:06:04,351] [DXL_Conmunication .DXL_motor_4] [INFO]: enableMotor : Motor4 is successfully armed
+[2024-04-14 03:06:04,367] [DXL_Conmunication .DXL_motor_5] [INFO]: enableMotor : Motor5 is successfully armed
+[2024-04-14 03:06:04,383] [DXL_Conmunication .DXL_motor_3] [INFO]: enableMotor : Motor3 is successfully armed
+[2024-04-14 03:19:40,562] [DXL_Conmunication .DXL_motor_1] [INFO]: disableMotor : Motor1 disarmed SUCCESSFULLY
+[2024-04-14 03:19:40,578] [DXL_Conmunication .DXL_motor_2] [INFO]: disableMotor : Motor2 disarmed SUCCESSFULLY
+[2024-04-14 03:19:40,594] [DXL_Conmunication .DXL_motor_4] [INFO]: disableMotor : Motor4 disarmed SUCCESSFULLY
+[2024-04-14 03:19:40,610] [DXL_Conmunication .DXL_motor_5] [INFO]: disableMotor : Motor5 disarmed SUCCESSFULLY
+[2024-04-14 03:19:40,626] [DXL_Conmunication .DXL_motor_3] [INFO]: disableMotor : Motor3 disarmed SUCCESSFULLY
+[2024-04-14 03:24:42,361] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to open the port
+[2024-04-14 03:24:42,367] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to change the baudrate
+[2024-04-14 03:24:42,408] [DXL_Conmunication .DXL_motor_1] [INFO]: pingMotor : [ID:001] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 03:24:42,440] [DXL_Conmunication .DXL_motor_2] [INFO]: pingMotor : [ID:002] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 03:24:42,472] [DXL_Conmunication .DXL_motor_3] [INFO]: pingMotor : [ID:003] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 03:24:42,504] [DXL_Conmunication .DXL_motor_4] [INFO]: pingMotor : [ID:004] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 03:24:42,536] [DXL_Conmunication .DXL_motor_5] [INFO]: pingMotor : [ID:005] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 03:24:42,552] [DXL_Conmunication .DXL_motor_1] [INFO]: rebootMotor : [ID:1] reboot Succeeded
+[2024-04-14 03:24:42,568] [DXL_Conmunication .DXL_motor_2] [INFO]: rebootMotor : [ID:2] reboot Succeeded
+[2024-04-14 03:24:42,584] [DXL_Conmunication .DXL_motor_3] [INFO]: rebootMotor : [ID:3] reboot Succeeded
+[2024-04-14 03:24:42,600] [DXL_Conmunication .DXL_motor_4] [INFO]: rebootMotor : [ID:4] reboot Succeeded
+[2024-04-14 03:24:42,616] [DXL_Conmunication .DXL_motor_5] [INFO]: rebootMotor : [ID:5] reboot Succeeded
+[2024-04-14 03:24:45,736] [DXL_Conmunication .DXL_motor_1] [INFO]: enableMotor : Motor1 is successfully armed
+[2024-04-14 03:24:45,752] [DXL_Conmunication .DXL_motor_2] [INFO]: enableMotor : Motor2 is successfully armed
+[2024-04-14 03:24:45,768] [DXL_Conmunication .DXL_motor_4] [INFO]: enableMotor : Motor4 is successfully armed
+[2024-04-14 03:24:45,784] [DXL_Conmunication .DXL_motor_5] [INFO]: enableMotor : Motor5 is successfully armed
+[2024-04-14 03:24:45,800] [DXL_Conmunication .DXL_motor_3] [INFO]: enableMotor : Motor3 is successfully armed
+[2024-04-14 03:29:10,829] [DXL_Conmunication .DXL_motor_1] [INFO]: disableMotor : Motor1 disarmed SUCCESSFULLY
+[2024-04-14 03:29:10,845] [DXL_Conmunication .DXL_motor_2] [INFO]: disableMotor : Motor2 disarmed SUCCESSFULLY
+[2024-04-14 03:29:10,861] [DXL_Conmunication .DXL_motor_4] [INFO]: disableMotor : Motor4 disarmed SUCCESSFULLY
+[2024-04-14 03:29:10,877] [DXL_Conmunication .DXL_motor_5] [INFO]: disableMotor : Motor5 disarmed SUCCESSFULLY
+[2024-04-14 03:29:10,893] [DXL_Conmunication .DXL_motor_3] [INFO]: disableMotor : Motor3 disarmed SUCCESSFULLY
+[2024-04-14 04:13:01,733] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to open the port
+[2024-04-14 04:13:01,740] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to change the baudrate
+[2024-04-14 04:13:01,779] [DXL_Conmunication .DXL_motor_1] [INFO]: pingMotor : [ID:001] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:13:01,811] [DXL_Conmunication .DXL_motor_2] [INFO]: pingMotor : [ID:002] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:13:01,843] [DXL_Conmunication .DXL_motor_3] [INFO]: pingMotor : [ID:003] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:13:01,875] [DXL_Conmunication .DXL_motor_4] [INFO]: pingMotor : [ID:004] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:13:01,907] [DXL_Conmunication .DXL_motor_5] [INFO]: pingMotor : [ID:005] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:13:01,923] [DXL_Conmunication .DXL_motor_1] [INFO]: rebootMotor : [ID:1] reboot Succeeded
+[2024-04-14 04:13:01,939] [DXL_Conmunication .DXL_motor_2] [INFO]: rebootMotor : [ID:2] reboot Succeeded
+[2024-04-14 04:13:01,955] [DXL_Conmunication .DXL_motor_3] [INFO]: rebootMotor : [ID:3] reboot Succeeded
+[2024-04-14 04:13:01,971] [DXL_Conmunication .DXL_motor_4] [INFO]: rebootMotor : [ID:4] reboot Succeeded
+[2024-04-14 04:13:01,987] [DXL_Conmunication .DXL_motor_5] [INFO]: rebootMotor : [ID:5] reboot Succeeded
+[2024-04-14 04:13:05,107] [DXL_Conmunication .DXL_motor_1] [INFO]: enableMotor : Motor1 is successfully armed
+[2024-04-14 04:13:05,123] [DXL_Conmunication .DXL_motor_2] [INFO]: enableMotor : Motor2 is successfully armed
+[2024-04-14 04:13:05,139] [DXL_Conmunication .DXL_motor_4] [INFO]: enableMotor : Motor4 is successfully armed
+[2024-04-14 04:13:05,155] [DXL_Conmunication .DXL_motor_5] [INFO]: enableMotor : Motor5 is successfully armed
+[2024-04-14 04:13:05,171] [DXL_Conmunication .DXL_motor_3] [INFO]: enableMotor : Motor3 is successfully armed
+[2024-04-14 04:25:16,852] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to open the port
+[2024-04-14 04:25:16,858] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to change the baudrate
+[2024-04-14 04:25:16,883] [DXL_Conmunication .DXL_motor_1] [INFO]: pingMotor : [ID:001] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:25:16,915] [DXL_Conmunication .DXL_motor_2] [INFO]: pingMotor : [ID:002] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:25:16,947] [DXL_Conmunication .DXL_motor_3] [INFO]: pingMotor : [ID:003] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:25:16,979] [DXL_Conmunication .DXL_motor_4] [INFO]: pingMotor : [ID:004] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:25:17,011] [DXL_Conmunication .DXL_motor_5] [INFO]: pingMotor : [ID:005] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:25:17,027] [DXL_Conmunication .DXL_motor_1] [INFO]: rebootMotor : [ID:1] reboot Succeeded
+[2024-04-14 04:25:17,043] [DXL_Conmunication .DXL_motor_2] [INFO]: rebootMotor : [ID:2] reboot Succeeded
+[2024-04-14 04:25:17,059] [DXL_Conmunication .DXL_motor_3] [INFO]: rebootMotor : [ID:3] reboot Succeeded
+[2024-04-14 04:25:17,075] [DXL_Conmunication .DXL_motor_4] [INFO]: rebootMotor : [ID:4] reboot Succeeded
+[2024-04-14 04:25:17,091] [DXL_Conmunication .DXL_motor_5] [INFO]: rebootMotor : [ID:5] reboot Succeeded
+[2024-04-14 04:25:20,211] [DXL_Conmunication .DXL_motor_1] [INFO]: enableMotor : Motor1 is successfully armed
+[2024-04-14 04:25:20,227] [DXL_Conmunication .DXL_motor_2] [INFO]: enableMotor : Motor2 is successfully armed
+[2024-04-14 04:25:20,243] [DXL_Conmunication .DXL_motor_4] [INFO]: enableMotor : Motor4 is successfully armed
+[2024-04-14 04:25:20,259] [DXL_Conmunication .DXL_motor_5] [INFO]: enableMotor : Motor5 is successfully armed
+[2024-04-14 04:25:20,275] [DXL_Conmunication .DXL_motor_3] [INFO]: enableMotor : Motor3 is successfully armed
+[2024-04-14 04:25:24,083] [DXL_Conmunication .DXL_motor_1] [INFO]: disableMotor : Motor1 disarmed SUCCESSFULLY
+[2024-04-14 04:25:24,099] [DXL_Conmunication .DXL_motor_2] [INFO]: disableMotor : Motor2 disarmed SUCCESSFULLY
+[2024-04-14 04:25:24,120] [DXL_Conmunication] [ERROR]: sentAllCmd : [TxRxResult] Port is in use!
+[2024-04-14 04:25:24,121] [DXL_Conmunication .DXL_motor_4] [INFO]: disableMotor : Motor4 disarmed SUCCESSFULLY
+[2024-04-14 04:25:24,130] [DXL_Conmunication .DXL_motor_5] [INFO]: disableMotor : Motor5 disarmed SUCCESSFULLY
+[2024-04-14 04:25:24,147] [DXL_Conmunication .DXL_motor_3] [INFO]: disableMotor : Motor3 disarmed SUCCESSFULLY
+[2024-04-14 04:27:02,567] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to open the port
+[2024-04-14 04:27:02,573] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to change the baudrate
+[2024-04-14 04:27:02,613] [DXL_Conmunication .DXL_motor_1] [INFO]: pingMotor : [ID:001] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:27:02,645] [DXL_Conmunication .DXL_motor_2] [INFO]: pingMotor : [ID:002] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:27:02,677] [DXL_Conmunication .DXL_motor_3] [INFO]: pingMotor : [ID:003] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:27:02,709] [DXL_Conmunication .DXL_motor_4] [INFO]: pingMotor : [ID:004] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:27:02,741] [DXL_Conmunication .DXL_motor_5] [INFO]: pingMotor : [ID:005] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:27:02,757] [DXL_Conmunication .DXL_motor_1] [INFO]: rebootMotor : [ID:1] reboot Succeeded
+[2024-04-14 04:27:02,773] [DXL_Conmunication .DXL_motor_2] [INFO]: rebootMotor : [ID:2] reboot Succeeded
+[2024-04-14 04:27:02,789] [DXL_Conmunication .DXL_motor_3] [INFO]: rebootMotor : [ID:3] reboot Succeeded
+[2024-04-14 04:27:02,805] [DXL_Conmunication .DXL_motor_4] [INFO]: rebootMotor : [ID:4] reboot Succeeded
+[2024-04-14 04:27:02,821] [DXL_Conmunication .DXL_motor_5] [INFO]: rebootMotor : [ID:5] reboot Succeeded
+[2024-04-14 04:27:05,941] [DXL_Conmunication .DXL_motor_1] [INFO]: enableMotor : Motor1 is successfully armed
+[2024-04-14 04:27:05,957] [DXL_Conmunication .DXL_motor_2] [INFO]: enableMotor : Motor2 is successfully armed
+[2024-04-14 04:27:05,973] [DXL_Conmunication .DXL_motor_4] [INFO]: enableMotor : Motor4 is successfully armed
+[2024-04-14 04:27:05,989] [DXL_Conmunication .DXL_motor_5] [INFO]: enableMotor : Motor5 is successfully armed
+[2024-04-14 04:27:06,005] [DXL_Conmunication .DXL_motor_3] [INFO]: enableMotor : Motor3 is successfully armed
+[2024-04-14 04:27:30,020] [DXL_Conmunication .DXL_motor_1] [INFO]: disableMotor : Motor1 disarmed SUCCESSFULLY
+[2024-04-14 04:27:30,036] [DXL_Conmunication .DXL_motor_2] [INFO]: disableMotor : Motor2 disarmed SUCCESSFULLY
+[2024-04-14 04:27:30,052] [DXL_Conmunication .DXL_motor_4] [INFO]: disableMotor : Motor4 disarmed SUCCESSFULLY
+[2024-04-14 04:27:30,068] [DXL_Conmunication] [ERROR]: sentAllCmd : [TxRxResult] Port is in use!
+[2024-04-14 04:27:30,069] [DXL_Conmunication .DXL_motor_5] [INFO]: disableMotor : Motor5 disarmed SUCCESSFULLY
+[2024-04-14 04:27:30,084] [DXL_Conmunication .DXL_motor_3] [INFO]: disableMotor : Motor3 disarmed SUCCESSFULLY
+[2024-04-14 04:31:45,077] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to open the port
+[2024-04-14 04:31:45,083] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to change the baudrate
+[2024-04-14 04:31:45,123] [DXL_Conmunication .DXL_motor_1] [INFO]: pingMotor : [ID:001] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:31:45,155] [DXL_Conmunication .DXL_motor_2] [INFO]: pingMotor : [ID:002] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:31:45,187] [DXL_Conmunication .DXL_motor_3] [INFO]: pingMotor : [ID:003] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:31:45,219] [DXL_Conmunication .DXL_motor_4] [INFO]: pingMotor : [ID:004] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:31:45,251] [DXL_Conmunication .DXL_motor_5] [INFO]: pingMotor : [ID:005] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:31:45,267] [DXL_Conmunication .DXL_motor_1] [INFO]: rebootMotor : [ID:1] reboot Succeeded
+[2024-04-14 04:31:45,283] [DXL_Conmunication .DXL_motor_2] [INFO]: rebootMotor : [ID:2] reboot Succeeded
+[2024-04-14 04:31:45,299] [DXL_Conmunication .DXL_motor_3] [INFO]: rebootMotor : [ID:3] reboot Succeeded
+[2024-04-14 04:31:45,315] [DXL_Conmunication .DXL_motor_4] [INFO]: rebootMotor : [ID:4] reboot Succeeded
+[2024-04-14 04:31:45,331] [DXL_Conmunication .DXL_motor_5] [INFO]: rebootMotor : [ID:5] reboot Succeeded
+[2024-04-14 04:31:48,451] [DXL_Conmunication .DXL_motor_1] [INFO]: enableMotor : Motor1 is successfully armed
+[2024-04-14 04:31:48,467] [DXL_Conmunication .DXL_motor_2] [INFO]: enableMotor : Motor2 is successfully armed
+[2024-04-14 04:31:48,483] [DXL_Conmunication .DXL_motor_4] [INFO]: enableMotor : Motor4 is successfully armed
+[2024-04-14 04:31:48,499] [DXL_Conmunication .DXL_motor_5] [INFO]: enableMotor : Motor5 is successfully armed
+[2024-04-14 04:31:48,515] [DXL_Conmunication .DXL_motor_3] [INFO]: enableMotor : Motor3 is successfully armed
+[2024-04-14 04:33:33,867] [DXL_Conmunication] [ERROR]: sentAllCmd : [TxRxResult] Port is in use!
+[2024-04-14 04:33:33,932] [DXL_Conmunication .DXL_motor_1] [INFO]: disableMotor : Motor1 disarmed UNSUCCESSFULLY
+[2024-04-14 04:33:33,969] [DXL_Conmunication] [ERROR]: sentAllCmd : [TxRxResult] Port is in use!
+[2024-04-14 04:33:34,007] [DXL_Conmunication .DXL_motor_2] [INFO]: disableMotor : Motor2 disarmed UNSUCCESSFULLY
+[2024-04-14 04:33:34,072] [DXL_Conmunication] [ERROR]: sentAllCmd : [TxRxResult] Port is in use!
+[2024-04-14 04:33:34,082] [DXL_Conmunication .DXL_motor_4] [INFO]: disableMotor : Motor4 disarmed UNSUCCESSFULLY
+[2024-04-14 04:33:34,156] [DXL_Conmunication .DXL_motor_5] [INFO]: disableMotor : Motor5 disarmed UNSUCCESSFULLY
+[2024-04-14 04:33:34,177] [DXL_Conmunication] [ERROR]: sentAllCmd : [TxRxResult] Port is in use!
+[2024-04-14 04:33:34,230] [DXL_Conmunication .DXL_motor_3] [INFO]: disableMotor : Motor3 disarmed UNSUCCESSFULLY
+[2024-04-14 04:33:55,450] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to open the port
+[2024-04-14 04:33:55,456] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to change the baudrate
+[2024-04-14 04:33:55,496] [DXL_Conmunication .DXL_motor_1] [INFO]: directReadData : com_err_msg : [TxRxResult] There is no status packet! at ID: 1
+[2024-04-14 04:33:55,533] [DXL_Conmunication .DXL_motor_1] [INFO]: pingMotor : DXL: Ping Error: [TxRxResult] There is no status packet! at ID:1
+[2024-04-14 04:33:55,534] [DXL_Conmunication] [WARNING]: createMotor : Motor 1 connect error
+[2024-04-14 04:33:55,573] [DXL_Conmunication .DXL_motor_2] [INFO]: directReadData : com_err_msg : [TxRxResult] There is no status packet! at ID: 2
+[2024-04-14 04:33:55,611] [DXL_Conmunication .DXL_motor_2] [INFO]: pingMotor : DXL: Ping Error: [TxRxResult] There is no status packet! at ID:2
+[2024-04-14 04:33:55,612] [DXL_Conmunication] [WARNING]: createMotor : Motor 2 connect error
+[2024-04-14 04:33:55,651] [DXL_Conmunication .DXL_motor_3] [INFO]: directReadData : com_err_msg : [TxRxResult] There is no status packet! at ID: 3
+[2024-04-14 04:33:55,689] [DXL_Conmunication .DXL_motor_3] [INFO]: pingMotor : DXL: Ping Error: [TxRxResult] There is no status packet! at ID:3
+[2024-04-14 04:33:55,691] [DXL_Conmunication] [WARNING]: createMotor : Motor 3 connect error
+[2024-04-14 04:33:55,729] [DXL_Conmunication .DXL_motor_4] [INFO]: directReadData : com_err_msg : [TxRxResult] There is no status packet! at ID: 4
+[2024-04-14 04:33:55,767] [DXL_Conmunication .DXL_motor_4] [INFO]: pingMotor : DXL: Ping Error: [TxRxResult] There is no status packet! at ID:4
+[2024-04-14 04:33:55,768] [DXL_Conmunication] [WARNING]: createMotor : Motor 4 connect error
+[2024-04-14 04:33:55,807] [DXL_Conmunication .DXL_motor_5] [INFO]: directReadData : com_err_msg : [TxRxResult] There is no status packet! at ID: 5
+[2024-04-14 04:33:55,845] [DXL_Conmunication .DXL_motor_5] [INFO]: pingMotor : DXL: Ping Error: [TxRxResult] There is no status packet! at ID:5
+[2024-04-14 04:33:55,846] [DXL_Conmunication] [WARNING]: createMotor : Motor 5 connect error
+[2024-04-14 04:33:58,850] [DXL_Conmunication] [WARNING]: updateMotorData : Failed: [TxRxResult] Protocol does not support this function!
+[2024-04-14 04:35:11,681] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to open the port
+[2024-04-14 04:35:11,688] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to change the baudrate
+[2024-04-14 04:35:11,727] [DXL_Conmunication .DXL_motor_1] [INFO]: pingMotor : [ID:001] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:35:11,759] [DXL_Conmunication .DXL_motor_2] [INFO]: pingMotor : [ID:002] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:35:11,791] [DXL_Conmunication .DXL_motor_3] [INFO]: pingMotor : [ID:003] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:35:11,823] [DXL_Conmunication .DXL_motor_4] [INFO]: pingMotor : [ID:004] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:35:11,855] [DXL_Conmunication .DXL_motor_5] [INFO]: pingMotor : [ID:005] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:35:11,871] [DXL_Conmunication .DXL_motor_1] [INFO]: rebootMotor : [ID:1] reboot Succeeded
+[2024-04-14 04:35:11,887] [DXL_Conmunication .DXL_motor_2] [INFO]: rebootMotor : [ID:2] reboot Succeeded
+[2024-04-14 04:35:11,903] [DXL_Conmunication .DXL_motor_3] [INFO]: rebootMotor : [ID:3] reboot Succeeded
+[2024-04-14 04:35:11,919] [DXL_Conmunication .DXL_motor_4] [INFO]: rebootMotor : [ID:4] reboot Succeeded
+[2024-04-14 04:35:11,935] [DXL_Conmunication .DXL_motor_5] [INFO]: rebootMotor : [ID:5] reboot Succeeded
+[2024-04-14 04:35:15,128] [DXL_Conmunication .DXL_motor_1] [INFO]: directReadData : com_err_msg : [TxRxResult] There is no status packet! at ID: 1
+[2024-04-14 04:35:15,130] [DXL_Conmunication .DXL_motor_1] [WARNING]: torqueEnabled : Read fail
+[2024-04-14 04:35:15,137] [DXL_Conmunication .DXL_motor_1] [INFO]: enableMotor : Motor1 not armed
+[2024-04-14 04:35:15,212] [DXL_Conmunication .DXL_motor_2] [INFO]: directReadData : com_err_msg : [TxRxResult] There is no status packet! at ID: 2
+[2024-04-14 04:35:15,213] [DXL_Conmunication .DXL_motor_2] [WARNING]: torqueEnabled : Read fail
+[2024-04-14 04:35:15,214] [DXL_Conmunication .DXL_motor_2] [INFO]: enableMotor : Motor2 not armed
+[2024-04-14 04:35:15,289] [DXL_Conmunication .DXL_motor_4] [INFO]: directReadData : com_err_msg : [TxRxResult] There is no status packet! at ID: 4
+[2024-04-14 04:35:15,290] [DXL_Conmunication .DXL_motor_4] [WARNING]: torqueEnabled : Read fail
+[2024-04-14 04:35:15,291] [DXL_Conmunication .DXL_motor_4] [INFO]: enableMotor : Motor4 not armed
+[2024-04-14 04:35:15,366] [DXL_Conmunication .DXL_motor_5] [INFO]: directReadData : com_err_msg : [TxRxResult] There is no status packet! at ID: 5
+[2024-04-14 04:35:15,367] [DXL_Conmunication .DXL_motor_5] [WARNING]: torqueEnabled : Read fail
+[2024-04-14 04:35:15,368] [DXL_Conmunication .DXL_motor_5] [INFO]: enableMotor : Motor5 not armed
+[2024-04-14 04:35:15,423] [DXL_Conmunication .DXL_motor_3] [DEBUG]: torqueEnabled : 0
+[2024-04-14 04:35:15,424] [DXL_Conmunication .DXL_motor_3] [INFO]: enableMotor : Motor3 not armed
+[2024-04-14 04:35:31,726] [DXL_Conmunication .DXL_motor_1] [INFO]: disableMotor : Motor1 disarmed SUCCESSFULLY
+[2024-04-14 04:35:31,742] [DXL_Conmunication .DXL_motor_2] [INFO]: disableMotor : Motor2 disarmed SUCCESSFULLY
+[2024-04-14 04:35:31,758] [DXL_Conmunication .DXL_motor_4] [INFO]: disableMotor : Motor4 disarmed SUCCESSFULLY
+[2024-04-14 04:35:31,774] [DXL_Conmunication .DXL_motor_5] [INFO]: disableMotor : Motor5 disarmed SUCCESSFULLY
+[2024-04-14 04:35:31,790] [DXL_Conmunication .DXL_motor_3] [INFO]: disableMotor : Motor3 disarmed SUCCESSFULLY
+[2024-04-14 04:37:35,404] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to open the port
+[2024-04-14 04:37:35,410] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to change the baudrate
+[2024-04-14 04:37:35,450] [DXL_Conmunication .DXL_motor_1] [INFO]: pingMotor : [ID:001] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:37:35,482] [DXL_Conmunication .DXL_motor_2] [INFO]: pingMotor : [ID:002] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:37:35,514] [DXL_Conmunication .DXL_motor_3] [INFO]: pingMotor : [ID:003] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:37:35,546] [DXL_Conmunication .DXL_motor_4] [INFO]: pingMotor : [ID:004] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:37:35,578] [DXL_Conmunication .DXL_motor_5] [INFO]: pingMotor : [ID:005] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:37:35,594] [DXL_Conmunication .DXL_motor_1] [INFO]: rebootMotor : [ID:1] reboot Succeeded
+[2024-04-14 04:37:35,610] [DXL_Conmunication .DXL_motor_2] [INFO]: rebootMotor : [ID:2] reboot Succeeded
+[2024-04-14 04:37:35,626] [DXL_Conmunication .DXL_motor_3] [INFO]: rebootMotor : [ID:3] reboot Succeeded
+[2024-04-14 04:37:35,642] [DXL_Conmunication .DXL_motor_4] [INFO]: rebootMotor : [ID:4] reboot Succeeded
+[2024-04-14 04:37:35,658] [DXL_Conmunication .DXL_motor_5] [INFO]: rebootMotor : [ID:5] reboot Succeeded
+[2024-04-14 04:37:38,778] [DXL_Conmunication .DXL_motor_1] [INFO]: enableMotor : Motor1 is successfully armed
+[2024-04-14 04:37:38,794] [DXL_Conmunication .DXL_motor_2] [INFO]: enableMotor : Motor2 is successfully armed
+[2024-04-14 04:37:38,810] [DXL_Conmunication .DXL_motor_4] [INFO]: enableMotor : Motor4 is successfully armed
+[2024-04-14 04:37:38,826] [DXL_Conmunication .DXL_motor_5] [INFO]: enableMotor : Motor5 is successfully armed
+[2024-04-14 04:37:38,842] [DXL_Conmunication .DXL_motor_3] [INFO]: enableMotor : Motor3 is successfully armed
+[2024-04-14 04:39:52,627] [DXL_Conmunication .DXL_motor_1] [INFO]: disableMotor : Motor1 disarmed SUCCESSFULLY
+[2024-04-14 04:39:52,643] [DXL_Conmunication .DXL_motor_2] [INFO]: disableMotor : Motor2 disarmed SUCCESSFULLY
+[2024-04-14 04:39:52,659] [DXL_Conmunication .DXL_motor_4] [INFO]: disableMotor : Motor4 disarmed SUCCESSFULLY
+[2024-04-14 04:39:52,675] [DXL_Conmunication .DXL_motor_5] [INFO]: disableMotor : Motor5 disarmed SUCCESSFULLY
+[2024-04-14 04:39:52,691] [DXL_Conmunication .DXL_motor_3] [INFO]: disableMotor : Motor3 disarmed SUCCESSFULLY
+[2024-04-14 04:40:11,276] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to open the port
+[2024-04-14 04:40:11,282] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to change the baudrate
+[2024-04-14 04:40:11,307] [DXL_Conmunication .DXL_motor_1] [INFO]: pingMotor : [ID:001] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:40:11,339] [DXL_Conmunication .DXL_motor_2] [INFO]: pingMotor : [ID:002] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:40:11,371] [DXL_Conmunication .DXL_motor_3] [INFO]: pingMotor : [ID:003] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:40:11,403] [DXL_Conmunication .DXL_motor_4] [INFO]: pingMotor : [ID:004] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:40:11,435] [DXL_Conmunication .DXL_motor_5] [INFO]: pingMotor : [ID:005] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:40:11,451] [DXL_Conmunication .DXL_motor_1] [INFO]: rebootMotor : [ID:1] reboot Succeeded
+[2024-04-14 04:40:11,467] [DXL_Conmunication .DXL_motor_2] [INFO]: rebootMotor : [ID:2] reboot Succeeded
+[2024-04-14 04:40:11,483] [DXL_Conmunication .DXL_motor_3] [INFO]: rebootMotor : [ID:3] reboot Succeeded
+[2024-04-14 04:40:11,499] [DXL_Conmunication .DXL_motor_4] [INFO]: rebootMotor : [ID:4] reboot Succeeded
+[2024-04-14 04:40:11,515] [DXL_Conmunication .DXL_motor_5] [INFO]: rebootMotor : [ID:5] reboot Succeeded
+[2024-04-14 04:40:14,634] [DXL_Conmunication .DXL_motor_1] [INFO]: enableMotor : Motor1 is successfully armed
+[2024-04-14 04:40:14,651] [DXL_Conmunication .DXL_motor_2] [INFO]: enableMotor : Motor2 is successfully armed
+[2024-04-14 04:40:14,667] [DXL_Conmunication .DXL_motor_4] [INFO]: enableMotor : Motor4 is successfully armed
+[2024-04-14 04:40:14,683] [DXL_Conmunication .DXL_motor_5] [INFO]: enableMotor : Motor5 is successfully armed
+[2024-04-14 04:40:14,699] [DXL_Conmunication .DXL_motor_3] [INFO]: enableMotor : Motor3 is successfully armed
+[2024-04-14 04:41:41,046] [DXL_Conmunication .DXL_motor_1] [INFO]: disableMotor : Motor1 disarmed UNSUCCESSFULLY
+[2024-04-14 04:41:41,120] [DXL_Conmunication .DXL_motor_2] [INFO]: disableMotor : Motor2 disarmed UNSUCCESSFULLY
+[2024-04-14 04:41:41,195] [DXL_Conmunication .DXL_motor_4] [INFO]: disableMotor : Motor4 disarmed UNSUCCESSFULLY
+[2024-04-14 04:41:41,269] [DXL_Conmunication .DXL_motor_5] [INFO]: disableMotor : Motor5 disarmed UNSUCCESSFULLY
+[2024-04-14 04:41:41,344] [DXL_Conmunication .DXL_motor_3] [INFO]: disableMotor : Motor3 disarmed UNSUCCESSFULLY
+[2024-04-14 04:43:06,386] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to open the port
+[2024-04-14 04:43:06,392] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to change the baudrate
+[2024-04-14 04:43:06,433] [DXL_Conmunication .DXL_motor_1] [INFO]: pingMotor : [ID:001] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:43:06,465] [DXL_Conmunication .DXL_motor_2] [INFO]: pingMotor : [ID:002] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:43:06,497] [DXL_Conmunication .DXL_motor_3] [INFO]: pingMotor : [ID:003] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:43:06,529] [DXL_Conmunication .DXL_motor_4] [INFO]: pingMotor : [ID:004] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:43:06,561] [DXL_Conmunication .DXL_motor_5] [INFO]: pingMotor : [ID:005] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:43:06,577] [DXL_Conmunication .DXL_motor_1] [INFO]: rebootMotor : [ID:1] reboot Succeeded
+[2024-04-14 04:43:06,593] [DXL_Conmunication .DXL_motor_2] [INFO]: rebootMotor : [ID:2] reboot Succeeded
+[2024-04-14 04:43:06,609] [DXL_Conmunication .DXL_motor_3] [INFO]: rebootMotor : [ID:3] reboot Succeeded
+[2024-04-14 04:43:06,625] [DXL_Conmunication .DXL_motor_4] [INFO]: rebootMotor : [ID:4] reboot Succeeded
+[2024-04-14 04:43:06,641] [DXL_Conmunication .DXL_motor_5] [INFO]: rebootMotor : [ID:5] reboot Succeeded
+[2024-04-14 04:43:09,760] [DXL_Conmunication .DXL_motor_1] [INFO]: enableMotor : Motor1 is successfully armed
+[2024-04-14 04:43:09,776] [DXL_Conmunication .DXL_motor_2] [INFO]: enableMotor : Motor2 is successfully armed
+[2024-04-14 04:43:09,792] [DXL_Conmunication .DXL_motor_4] [INFO]: enableMotor : Motor4 is successfully armed
+[2024-04-14 04:43:09,808] [DXL_Conmunication .DXL_motor_5] [INFO]: enableMotor : Motor5 is successfully armed
+[2024-04-14 04:43:09,824] [DXL_Conmunication .DXL_motor_3] [INFO]: enableMotor : Motor3 is successfully armed
+[2024-04-14 04:44:12,475] [DXL_Conmunication .DXL_motor_1] [INFO]: disableMotor : Motor1 disarmed SUCCESSFULLY
+[2024-04-14 04:44:12,491] [DXL_Conmunication .DXL_motor_2] [INFO]: disableMotor : Motor2 disarmed SUCCESSFULLY
+[2024-04-14 04:44:12,505] [DXL_Conmunication] [ERROR]: sentAllCmd : [TxRxResult] Port is in use!
+[2024-04-14 04:44:12,507] [DXL_Conmunication .DXL_motor_4] [INFO]: disableMotor : Motor4 disarmed SUCCESSFULLY
+[2024-04-14 04:44:12,523] [DXL_Conmunication .DXL_motor_5] [INFO]: disableMotor : Motor5 disarmed SUCCESSFULLY
+[2024-04-14 04:44:12,539] [DXL_Conmunication .DXL_motor_3] [INFO]: disableMotor : Motor3 disarmed SUCCESSFULLY
+[2024-04-14 04:45:40,151] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to open the port
+[2024-04-14 04:45:40,156] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to change the baudrate
+[2024-04-14 04:45:40,197] [DXL_Conmunication .DXL_motor_1] [INFO]: pingMotor : [ID:001] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:45:40,229] [DXL_Conmunication .DXL_motor_2] [INFO]: pingMotor : [ID:002] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:45:40,261] [DXL_Conmunication .DXL_motor_3] [INFO]: pingMotor : [ID:003] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:45:40,293] [DXL_Conmunication .DXL_motor_4] [INFO]: pingMotor : [ID:004] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:45:40,325] [DXL_Conmunication .DXL_motor_5] [INFO]: pingMotor : [ID:005] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:45:40,340] [DXL_Conmunication .DXL_motor_1] [INFO]: rebootMotor : [ID:1] reboot Succeeded
+[2024-04-14 04:45:40,356] [DXL_Conmunication .DXL_motor_2] [INFO]: rebootMotor : [ID:2] reboot Succeeded
+[2024-04-14 04:45:40,373] [DXL_Conmunication .DXL_motor_3] [INFO]: rebootMotor : [ID:3] reboot Succeeded
+[2024-04-14 04:45:40,389] [DXL_Conmunication .DXL_motor_4] [INFO]: rebootMotor : [ID:4] reboot Succeeded
+[2024-04-14 04:45:40,404] [DXL_Conmunication .DXL_motor_5] [INFO]: rebootMotor : [ID:5] reboot Succeeded
+[2024-04-14 04:45:43,524] [DXL_Conmunication .DXL_motor_1] [INFO]: enableMotor : Motor1 is successfully armed
+[2024-04-14 04:45:43,540] [DXL_Conmunication .DXL_motor_2] [INFO]: enableMotor : Motor2 is successfully armed
+[2024-04-14 04:45:43,556] [DXL_Conmunication .DXL_motor_4] [INFO]: enableMotor : Motor4 is successfully armed
+[2024-04-14 04:45:43,572] [DXL_Conmunication .DXL_motor_5] [INFO]: enableMotor : Motor5 is successfully armed
+[2024-04-14 04:45:43,588] [DXL_Conmunication .DXL_motor_3] [INFO]: enableMotor : Motor3 is successfully armed
+[2024-04-14 04:47:01,182] [DXL_Conmunication .DXL_motor_1] [INFO]: disableMotor : Motor1 disarmed SUCCESSFULLY
+[2024-04-14 04:47:01,198] [DXL_Conmunication .DXL_motor_2] [INFO]: disableMotor : Motor2 disarmed SUCCESSFULLY
+[2024-04-14 04:47:01,214] [DXL_Conmunication .DXL_motor_4] [INFO]: disableMotor : Motor4 disarmed SUCCESSFULLY
+[2024-04-14 04:47:01,230] [DXL_Conmunication .DXL_motor_5] [INFO]: disableMotor : Motor5 disarmed SUCCESSFULLY
+[2024-04-14 04:47:01,246] [DXL_Conmunication .DXL_motor_3] [INFO]: disableMotor : Motor3 disarmed SUCCESSFULLY
+[2024-04-14 04:47:54,343] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to open the port
+[2024-04-14 04:47:54,349] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to change the baudrate
+[2024-04-14 04:47:54,390] [DXL_Conmunication .DXL_motor_1] [INFO]: pingMotor : [ID:001] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:47:54,422] [DXL_Conmunication .DXL_motor_2] [INFO]: pingMotor : [ID:002] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:47:54,454] [DXL_Conmunication .DXL_motor_3] [INFO]: pingMotor : [ID:003] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:47:54,486] [DXL_Conmunication .DXL_motor_4] [INFO]: pingMotor : [ID:004] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:47:54,518] [DXL_Conmunication .DXL_motor_5] [INFO]: pingMotor : [ID:005] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 04:47:54,534] [DXL_Conmunication .DXL_motor_1] [INFO]: rebootMotor : [ID:1] reboot Succeeded
+[2024-04-14 04:47:54,550] [DXL_Conmunication .DXL_motor_2] [INFO]: rebootMotor : [ID:2] reboot Succeeded
+[2024-04-14 04:47:54,566] [DXL_Conmunication .DXL_motor_3] [INFO]: rebootMotor : [ID:3] reboot Succeeded
+[2024-04-14 04:47:54,582] [DXL_Conmunication .DXL_motor_4] [INFO]: rebootMotor : [ID:4] reboot Succeeded
+[2024-04-14 04:47:54,598] [DXL_Conmunication .DXL_motor_5] [INFO]: rebootMotor : [ID:5] reboot Succeeded
+[2024-04-14 04:47:57,717] [DXL_Conmunication .DXL_motor_1] [INFO]: enableMotor : Motor1 is successfully armed
+[2024-04-14 04:47:57,733] [DXL_Conmunication .DXL_motor_2] [INFO]: enableMotor : Motor2 is successfully armed
+[2024-04-14 04:47:57,749] [DXL_Conmunication .DXL_motor_4] [INFO]: enableMotor : Motor4 is successfully armed
+[2024-04-14 04:47:57,765] [DXL_Conmunication .DXL_motor_5] [INFO]: enableMotor : Motor5 is successfully armed
+[2024-04-14 04:47:57,781] [DXL_Conmunication .DXL_motor_3] [INFO]: enableMotor : Motor3 is successfully armed
+[2024-04-14 05:29:56,015] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to open the port
+[2024-04-14 05:29:56,022] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to change the baudrate
+[2024-04-14 05:29:56,061] [DXL_Conmunication .DXL_motor_1] [INFO]: pingMotor : [ID:001] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 05:29:56,093] [DXL_Conmunication .DXL_motor_2] [INFO]: pingMotor : [ID:002] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 05:29:56,125] [DXL_Conmunication .DXL_motor_3] [INFO]: pingMotor : [ID:003] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 05:29:56,157] [DXL_Conmunication .DXL_motor_4] [INFO]: pingMotor : [ID:004] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 05:29:56,189] [DXL_Conmunication .DXL_motor_5] [INFO]: pingMotor : [ID:005] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 05:29:56,205] [DXL_Conmunication .DXL_motor_1] [INFO]: rebootMotor : [ID:1] reboot Succeeded
+[2024-04-14 05:29:56,221] [DXL_Conmunication .DXL_motor_2] [INFO]: rebootMotor : [ID:2] reboot Succeeded
+[2024-04-14 05:29:56,237] [DXL_Conmunication .DXL_motor_3] [INFO]: rebootMotor : [ID:3] reboot Succeeded
+[2024-04-14 05:29:56,253] [DXL_Conmunication .DXL_motor_4] [INFO]: rebootMotor : [ID:4] reboot Succeeded
+[2024-04-14 05:29:56,269] [DXL_Conmunication .DXL_motor_5] [INFO]: rebootMotor : [ID:5] reboot Succeeded
+[2024-04-14 05:29:59,388] [DXL_Conmunication .DXL_motor_1] [INFO]: enableMotor : Motor1 is successfully armed
+[2024-04-14 05:29:59,404] [DXL_Conmunication .DXL_motor_2] [INFO]: enableMotor : Motor2 is successfully armed
+[2024-04-14 05:29:59,420] [DXL_Conmunication .DXL_motor_4] [INFO]: enableMotor : Motor4 is successfully armed
+[2024-04-14 05:29:59,436] [DXL_Conmunication .DXL_motor_5] [INFO]: enableMotor : Motor5 is successfully armed
+[2024-04-14 05:29:59,452] [DXL_Conmunication .DXL_motor_3] [INFO]: enableMotor : Motor3 is successfully armed
+[2024-04-14 05:33:32,498] [DXL_Conmunication .DXL_motor_1] [INFO]: disableMotor : Motor1 disarmed SUCCESSFULLY
+[2024-04-14 05:33:32,514] [DXL_Conmunication .DXL_motor_2] [INFO]: disableMotor : Motor2 disarmed SUCCESSFULLY
+[2024-04-14 05:33:32,530] [DXL_Conmunication .DXL_motor_4] [INFO]: disableMotor : Motor4 disarmed SUCCESSFULLY
+[2024-04-14 05:33:32,546] [DXL_Conmunication .DXL_motor_5] [INFO]: disableMotor : Motor5 disarmed SUCCESSFULLY
+[2024-04-14 05:33:32,562] [DXL_Conmunication .DXL_motor_3] [INFO]: disableMotor : Motor3 disarmed SUCCESSFULLY
+[2024-04-14 05:33:53,167] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to open the port
+[2024-04-14 05:33:53,173] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to change the baudrate
+[2024-04-14 05:33:53,213] [DXL_Conmunication .DXL_motor_1] [INFO]: pingMotor : [ID:001] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 05:33:53,245] [DXL_Conmunication .DXL_motor_2] [INFO]: pingMotor : [ID:002] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 05:33:53,277] [DXL_Conmunication .DXL_motor_3] [INFO]: pingMotor : [ID:003] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 05:33:53,309] [DXL_Conmunication .DXL_motor_4] [INFO]: pingMotor : [ID:004] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 05:33:53,341] [DXL_Conmunication .DXL_motor_5] [INFO]: pingMotor : [ID:005] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 05:33:53,356] [DXL_Conmunication .DXL_motor_1] [INFO]: rebootMotor : [ID:1] reboot Succeeded
+[2024-04-14 05:33:53,372] [DXL_Conmunication .DXL_motor_2] [INFO]: rebootMotor : [ID:2] reboot Succeeded
+[2024-04-14 05:33:53,389] [DXL_Conmunication .DXL_motor_3] [INFO]: rebootMotor : [ID:3] reboot Succeeded
+[2024-04-14 05:33:53,404] [DXL_Conmunication .DXL_motor_4] [INFO]: rebootMotor : [ID:4] reboot Succeeded
+[2024-04-14 05:33:53,420] [DXL_Conmunication .DXL_motor_5] [INFO]: rebootMotor : [ID:5] reboot Succeeded
+[2024-04-14 05:33:56,540] [DXL_Conmunication .DXL_motor_1] [INFO]: enableMotor : Motor1 is successfully armed
+[2024-04-14 05:33:56,556] [DXL_Conmunication .DXL_motor_2] [INFO]: enableMotor : Motor2 is successfully armed
+[2024-04-14 05:33:56,572] [DXL_Conmunication .DXL_motor_4] [INFO]: enableMotor : Motor4 is successfully armed
+[2024-04-14 05:33:56,588] [DXL_Conmunication .DXL_motor_5] [INFO]: enableMotor : Motor5 is successfully armed
+[2024-04-14 05:33:56,604] [DXL_Conmunication .DXL_motor_3] [INFO]: enableMotor : Motor3 is successfully armed
+[2024-04-14 05:40:45,600] [DXL_Conmunication .DXL_motor_1] [INFO]: disableMotor : Motor1 disarmed SUCCESSFULLY
+[2024-04-14 05:40:45,616] [DXL_Conmunication .DXL_motor_2] [INFO]: disableMotor : Motor2 disarmed SUCCESSFULLY
+[2024-04-14 05:40:45,632] [DXL_Conmunication .DXL_motor_4] [INFO]: disableMotor : Motor4 disarmed SUCCESSFULLY
+[2024-04-14 05:40:45,648] [DXL_Conmunication .DXL_motor_5] [INFO]: disableMotor : Motor5 disarmed SUCCESSFULLY
+[2024-04-14 05:40:45,664] [DXL_Conmunication .DXL_motor_3] [INFO]: disableMotor : Motor3 disarmed SUCCESSFULLY
+[2024-04-14 05:43:08,591] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to open the port
+[2024-04-14 05:43:08,597] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to change the baudrate
+[2024-04-14 05:43:08,637] [DXL_Conmunication .DXL_motor_1] [INFO]: pingMotor : [ID:001] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 05:43:08,669] [DXL_Conmunication .DXL_motor_2] [INFO]: pingMotor : [ID:002] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 05:43:08,701] [DXL_Conmunication .DXL_motor_3] [INFO]: pingMotor : [ID:003] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 05:43:08,733] [DXL_Conmunication .DXL_motor_4] [INFO]: pingMotor : [ID:004] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 05:43:08,765] [DXL_Conmunication .DXL_motor_5] [INFO]: pingMotor : [ID:005] ping Succeeded. Dynamixel model number : 1060
+[2024-04-14 05:43:08,781] [DXL_Conmunication .DXL_motor_1] [INFO]: rebootMotor : [ID:1] reboot Succeeded
+[2024-04-14 05:43:08,797] [DXL_Conmunication .DXL_motor_2] [INFO]: rebootMotor : [ID:2] reboot Succeeded
+[2024-04-14 05:43:08,813] [DXL_Conmunication .DXL_motor_3] [INFO]: rebootMotor : [ID:3] reboot Succeeded
+[2024-04-14 05:43:08,829] [DXL_Conmunication .DXL_motor_4] [INFO]: rebootMotor : [ID:4] reboot Succeeded
+[2024-04-14 05:43:08,845] [DXL_Conmunication .DXL_motor_5] [INFO]: rebootMotor : [ID:5] reboot Succeeded
+[2024-04-14 05:43:11,965] [DXL_Conmunication .DXL_motor_1] [INFO]: enableMotor : Motor1 is successfully armed
+[2024-04-14 05:43:11,981] [DXL_Conmunication .DXL_motor_2] [INFO]: enableMotor : Motor2 is successfully armed
+[2024-04-14 05:43:11,997] [DXL_Conmunication .DXL_motor_4] [INFO]: enableMotor : Motor4 is successfully armed
+[2024-04-14 05:43:12,013] [DXL_Conmunication .DXL_motor_5] [INFO]: enableMotor : Motor5 is successfully armed
+[2024-04-14 05:43:12,029] [DXL_Conmunication .DXL_motor_3] [INFO]: enableMotor : Motor3 is successfully armed
+[2024-04-14 06:44:16,440] [DXL_Conmunication] [ERROR]: sentAllCmd : [TxRxResult] Port is in use!
+[2024-04-14 06:44:16,447] [DXL_Conmunication .DXL_motor_1] [INFO]: disableMotor : Motor1 disarmed SUCCESSFULLY
+[2024-04-14 06:44:16,463] [DXL_Conmunication .DXL_motor_2] [INFO]: disableMotor : Motor2 disarmed SUCCESSFULLY
+[2024-04-14 06:44:16,479] [DXL_Conmunication .DXL_motor_4] [INFO]: disableMotor : Motor4 disarmed SUCCESSFULLY
+[2024-04-14 06:44:16,495] [DXL_Conmunication .DXL_motor_5] [INFO]: disableMotor : Motor5 disarmed SUCCESSFULLY
+[2024-04-14 06:44:16,527] [DXL_Conmunication .DXL_motor_3] [INFO]: disableMotor : Motor3 disarmed UNSUCCESSFULLY

@@ -62,6 +62,7 @@ ros2 topic echo /joy
 * #### RT: get down right
 * #### B: stand up
 * #### Y: freedom_mode
+* #### L3 : sit & stand
 
 ### Record
 * #### LB: start(first pressed) & stop(second pressed) record

@@ -7,15 +7,6 @@ action_dic =    {
                     ],
                                 
                     'get_down_right': [
-                    #action 1    
-                        # {'motor1': 1535, 'motor2': 2567, 'motor3': 1022, 'motor4': 2567, 'motor5': 1525},#stand
-                        # {'motor1': 1535, 'motor2': 2564, 'motor3': 1022, 'motor4': 1649, 'motor5': 2424},#sit
-                        # {'motor1': 1535, 'motor2': 2564, 'motor3': 1022, 'motor4': 3875, 'motor5': 2424},#shaek left back-end feet
-                        # {'motor1': 1535, 'motor2': 2567, 'motor3': 1022, 'motor4': 3875, 'motor5': 1525},#right back-end feet back
-                        # {'motor1': 1535, 'motor2': 2567, 'motor3': 1022, 'motor4': 2567, 'motor5': 1525},#stand
-                        # {'motor1': 1624, 'motor2': 2404, 'motor3': 1929, 'motor4': 2508, 'motor5': 1659}#curl
-                    
-                    #action 2
                         {'motor1': 1535, 'motor2': 2567, 'motor3': 1022, 'motor4': 2567, 'motor5': 1525},#stand
 
                         {'motor1': 1427, 'motor2': 2097, 'motor3': 1452, 'motor4': 1820, 'motor5': 1380},
@@ -31,16 +22,6 @@ action_dic =    {
                     ],
 
                     'get_down_left': [ 
-                    #action 1    
-                        # {'motor1': 1535, 'motor2': 2567, 'motor3': 1021, 'motor4': 2567, 'motor5': 1525},#stand
-                        # {'motor1': 1535, 'motor2': 2564, 'motor3': 1047, 'motor4': 1649, 'motor5': 2424},#sit
-                        # {'motor1': 1535, 'motor2': 2564, 'motor3': 1047, 'motor4': 1649, 'motor5': 198 },#shaek right back-end feet
-                        # {'motor1': 1535, 'motor2': 2567, 'motor3': 1021, 'motor4': 2567, 'motor5': 198 },#left back-end feet back
-                        # {'motor1': 1535, 'motor2': 2567, 'motor3': 1021, 'motor4': 2567, 'motor5': 1525},#stand
-                        # {'motor1': 1624, 'motor2': 2404, 'motor3': 1929, 'motor4': 2508, 'motor5': 1659}#curl
-
-                    #action 2
-                        #action 2
                         {'motor1': 1535, 'motor2': 2567, 'motor3': 1022, 'motor4': 2567, 'motor5': 1525},#stand
 
                         {'motor1': 2005, 'motor2': 2676, 'motor3': 1452, 'motor4': 2712, 'motor5': 2272},
@@ -55,11 +36,6 @@ action_dic =    {
                     ],
 
                     'stand_up_from_right': [
-                        # {'motor1': 1624, 'motor2': 2404, 'motor3': 1929, 'motor4': 2508, 'motor5': 1659},#curl
-                        # {'motor1': 1535, 'motor2': 2567, 'motor3': 1022, 'motor4': 2567, 'motor5': 1525},#stand
-                        # {'motor1': 1535, 'motor2': 3612, 'motor3': 1022, 'motor4': 2567, 'motor5': 2263},#back
-                        # {'motor1': 1535, 'motor2': 2567, 'motor3': 1022, 'motor4': 2567, 'motor5': 1525},#stand
-
                         {'motor1': 1624, 'motor2': 2404, 'motor3': 1929, 'motor4': 2508, 'motor5': 1659},#curl
                         {'motor1': 1535, 'motor2': 2567, 'motor3': 1021, 'motor4': 2567, 'motor5': 1525},#stand
                         {'motor1': 1535, 'motor2': 3982, 'motor3': 1021, 'motor4': 2514, 'motor5': 2533},#back
@@ -74,5 +50,13 @@ action_dic =    {
                         {'motor1': 120 , 'motor2': 2567, 'motor3': 1011, 'motor4': 1559, 'motor5': 1525},#back
                         {'motor1': 120 , 'motor2': 2567, 'motor3': 1200, 'motor4': 1559, 'motor5': 1525},#back2
                         {'motor1': 1535, 'motor2': 2567, 'motor3': 1021, 'motor4': 2567, 'motor5': 1525},#stand
-                    ]
+                    ],
+
+                    'sit': [
+                        {'motor1': 1555, 'motor2': 2558, 'motor3':  988, 'motor4': 1980, 'motor5': 2132}
+                    ], 
+
+                    'stand': [
+                        {'motor1': 1535, 'motor2': 2567, 'motor3': 1021, 'motor4': 2567, 'motor5': 1525},#stand
+                    ],
                 }
