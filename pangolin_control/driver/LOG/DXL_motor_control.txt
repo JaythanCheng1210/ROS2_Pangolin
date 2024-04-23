@@ -2920,3 +2920,20 @@ serial.serialutil.SerialException: [Errno 2] could not open port /dev/ttyUSB0: [
 [2024-04-15 05:10:44,498] [DXL_Conmunication .DXL_motor_4] [INFO]: disableMotor : Motor4 disarmed SUCCESSFULLY
 [2024-04-15 05:10:44,514] [DXL_Conmunication .DXL_motor_5] [INFO]: disableMotor : Motor5 disarmed SUCCESSFULLY
 [2024-04-15 05:10:44,530] [DXL_Conmunication .DXL_motor_3] [INFO]: disableMotor : Motor3 disarmed SUCCESSFULLY
+[2024-04-22 06:29:07,663] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to open the port
+[2024-04-22 06:29:07,676] [DXL_Conmunication] [INFO]: activateDXLConnection : Succeeded to change the baudrate
+[2024-04-22 06:29:07,709] [DXL_Conmunication .DXL_motor_1] [INFO]: pingMotor : [ID:001] ping Succeeded. Dynamixel model number : 1060
+[2024-04-22 06:29:07,741] [DXL_Conmunication .DXL_motor_2] [INFO]: pingMotor : [ID:002] ping Succeeded. Dynamixel model number : 1060
+[2024-04-22 06:29:07,773] [DXL_Conmunication .DXL_motor_3] [INFO]: pingMotor : [ID:003] ping Succeeded. Dynamixel model number : 1060
+[2024-04-22 06:29:07,805] [DXL_Conmunication .DXL_motor_4] [INFO]: pingMotor : [ID:004] ping Succeeded. Dynamixel model number : 1060
+[2024-04-22 06:29:07,837] [DXL_Conmunication .DXL_motor_5] [INFO]: pingMotor : [ID:005] ping Succeeded. Dynamixel model number : 1060
+[2024-04-22 06:29:07,853] [DXL_Conmunication .DXL_motor_1] [INFO]: rebootMotor : [ID:1] reboot Succeeded
+[2024-04-22 06:29:07,869] [DXL_Conmunication .DXL_motor_2] [INFO]: rebootMotor : [ID:2] reboot Succeeded
+[2024-04-22 06:29:07,885] [DXL_Conmunication .DXL_motor_3] [INFO]: rebootMotor : [ID:3] reboot Succeeded
+[2024-04-22 06:29:07,901] [DXL_Conmunication .DXL_motor_4] [INFO]: rebootMotor : [ID:4] reboot Succeeded
+[2024-04-22 06:29:07,917] [DXL_Conmunication .DXL_motor_5] [INFO]: rebootMotor : [ID:5] reboot Succeeded
+[2024-04-22 06:29:11,036] [DXL_Conmunication .DXL_motor_1] [INFO]: enableMotor : Motor1 is successfully armed
+[2024-04-22 06:29:11,052] [DXL_Conmunication .DXL_motor_2] [INFO]: enableMotor : Motor2 is successfully armed
+[2024-04-22 06:29:11,068] [DXL_Conmunication .DXL_motor_4] [INFO]: enableMotor : Motor4 is successfully armed
+[2024-04-22 06:29:11,084] [DXL_Conmunication .DXL_motor_5] [INFO]: enableMotor : Motor5 is successfully armed
+[2024-04-22 06:29:11,100] [DXL_Conmunication .DXL_motor_3] [INFO]: enableMotor : Motor3 is successfully armed

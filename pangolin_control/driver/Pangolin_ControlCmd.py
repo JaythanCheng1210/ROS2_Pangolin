@@ -282,7 +282,7 @@ class PangolinControl:
                                                                     "motor4":action[i]["motor4"], 
                                                                     "motor5":action[i]["motor5"]})
             # print(i)
-            time.sleep(0.08)
+            time.sleep(0.1)
         setPWMServoPulse(5, 1500, 100)
         setPWMServoPulse(6, 2000, 100)
 
@@ -297,7 +297,7 @@ class PangolinControl:
                                                                     "motor4":action[i]["motor4"], 
                                                                     "motor5":action[i]["motor5"]})
             # print(i)
-            time.sleep(0.08)
+            time.sleep(0.1)
         setPWMServoPulse(5, 1500, 200)
         setPWMServoPulse(6, 2000, 200)    
 

@@ -46,12 +46,25 @@ colcon build --symlink-install
 ros2 launch pangolin_bringup pangolin_bringup.launch.py
 ```
 
-### test
+### joystick test
 ```
 ros2 run joy joy_node
 ```
 ```
 ros2 topic echo /joy
+```
+### camera test
+```
+sudo apt install ros-humble-image-transport ros-humble-camera-info-manager
+```
+```
+sudo apt install ros-humble-usb-cam
+```
+```
+ros2 run usb_cam usb_cam_node_exe
+```
+```
+ros2 run rqt_image_view rqt_image_view
 ```
 
 ### Control Button

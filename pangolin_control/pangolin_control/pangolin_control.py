@@ -12,6 +12,7 @@ from sensor_msgs.msg import Imu
 from pangolin_interfaces.action import PangolinAction
 
 import time
+import signal
 import os, sys, math
 import numpy as np
 
@@ -38,6 +39,7 @@ class Pangolin(Node):
         self.cmd_vel_subscriber_ = self.create_subscription(Twist, 'cmd_vel', self.cmd_vel_callback, 1)
 
         atexit.register(self.disable)
+        # signal.signal(signal.SIGNAL, self.signal_handler)
         
         
         self._goal_lock = threading.Lock()
@@ -299,6 +301,14 @@ class Pangolin(Node):
 
     def disable(self):
         self.control_cmd.disable_motor()
+
+
+    # def signal_handler(self, sig, frame):
+    #     """Signal handler for Ctrl+C"""
+    #     self.get_logger().info('Ctrl+C detected. Disabling motors...')
+    #     self.disable()
+    #     # Optionally, you can perform additional cleanup or logging here
+    #     sys.exit(0)
 
             
 
