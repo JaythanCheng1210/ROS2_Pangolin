@@ -263,7 +263,7 @@ class Pangolin(Node):
                 self.control_cmd.stop_gait()
         
         # head control
-        if (self.control_cmd.is_walking == False) and (self.control_cmd.is_turning == False) and (self.is_curl == False) and (self.is_stance_mode == False) and (self.is_freedom_mode == False) and (self.is_sit_mode == False):
+        if (self.control_cmd.is_walking == False) and (self.control_cmd.is_turning == False) and (self.is_curl == False) and (self.is_stance_mode == False) and (self.is_freedom_mode == False):
             self.control_cmd.head_control(msg.linear.y, -(msg.linear.z))
         
 
