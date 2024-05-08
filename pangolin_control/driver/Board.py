@@ -28,7 +28,7 @@ __i2c = 1
 __i2c_addr = 0x7A
 
 GPIO.setwarnings(False)
-GPIO.setmode(GPIO.BOARD)
+GPIO.setmode(GPIO.BCM)
 
 # __RGB_COUNT = 2
 # __RGB_PIN = 12

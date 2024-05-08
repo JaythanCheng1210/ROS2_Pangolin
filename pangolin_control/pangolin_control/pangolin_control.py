@@ -15,6 +15,8 @@ import time
 import signal
 import os, sys, math
 import numpy as np
+import RPi.GPIO as GPIO
+from time import sleep
 
 import atexit
 import threading
@@ -58,6 +60,20 @@ class Pangolin(Node):
         self.pitch = None
         self.roll = None
         self.yaw = None
+
+        GPIO.setmode(GPIO.BCM)
+        GPIO.setup(6, GPIO.OUT)
+        p = GPIO.PWM(6, 50)
+
+        p.ChangeFrequency(523)
+        p.start(50)
+        time.sleep(0.2)
+        p.stop()
+        
+        p.ChangeFrequency(659)
+        p.start(50)
+        time.sleep(0.2)
+        p.stop()
 
         # atexit.register(self.cleanup)
 
