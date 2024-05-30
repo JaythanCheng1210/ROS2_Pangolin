@@ -30,7 +30,7 @@ from launch.actions import ExecuteProcess
 def generate_launch_description():
     return LaunchDescription([
         ExecuteProcess(
-            cmd=[['ros2 run v4l2_camera v4l2_camera_node --ros-args -p video_device:="/dev/video0" -p image_size:=[1280,720]']],
+            cmd=[['ros2 run v4l2_camera v4l2_camera_node --ros-args -p video_device:="/dev/video2" -p image_size:=[1280,720]']],
             shell=True,
         ),
         ExecuteProcess(
